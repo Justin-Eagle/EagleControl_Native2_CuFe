@@ -1,0 +1,4 @@
+[2026/07/22 17:53:22] Success (CreateExcel) => C:\Users\justin\Desktop\新增資料夾\EagleControl_Native\bin\Debug\CsvData\StatusCsv\20260722.csv
+[2026/07/22 17:53:22] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾\EagleControl_Native\bin\Debug\CsvData\StatusCsv\20260722.csv,1,2026/07/22,17:53:22,等待中
+[2026/07/22 17:53:22] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾\EagleControl_Native\bin\Debug\CsvData\槽A_銅\20260722.csv
+[2026/07/22 17:53:22] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾\EagleControl_Native\bin\Debug\CsvData\槽A_銅\20260722.csv,1,2026/07/22,17:53:22,12,13,103

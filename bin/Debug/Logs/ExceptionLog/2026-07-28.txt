@@ -1,0 +1,5 @@
+[2026/07/28 14:23:27] 輸入字串格式不正確。
+   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 System.Int32.Parse(String s)
+   於 EagleControl_Native2_CuFe.MainWindow.GoButton_Click(Object sender, RoutedEventArgs e) 於 C:\AppSource\MainWindow.xaml.cs: 行 72

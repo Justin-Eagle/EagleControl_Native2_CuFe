@@ -1,0 +1,58 @@
+[2026/07/27 21:29:49] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv
+[2026/07/27 21:29:49] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,1,2026/07/27,21:29:49,0.238,0,0
+[2026/07/27 21:34:02] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv
+[2026/07/27 21:34:02] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,1,2026/07/27,21:34:02,0.238,1.119,0
+[2026/07/27 21:36:27] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,2,2026/07/27,21:36:27,0.238,1.119,0
+[2026/07/27 21:36:46] Success (CreateCalibrationParameterExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv
+[2026/07/27 21:36:46] Success : (WriteCalibrationParameter) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv,1,2026/07/27,21:36:46, ,0.2500001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[2026/07/27 21:38:22] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,3,2026/07/27,21:38:22,0.238,1.119,0
+[2026/07/27 21:38:35] Success : (WriteCalibrationParameter) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv,2,2026/07/27,21:38:35, ,0.2500001,0,0.387,0,0,0,0,0,0,0,0,0,0,0,0,0
+[2026/07/27 21:40:49] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,4,2026/07/27,21:40:49,0.238,1.119,0
+[2026/07/27 21:41:28] Success : (WriteCalibrationParameter) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv,3,2026/07/27,21:41:28, ,0.25,0,0.387,0,0,0,0,0,0,0,0,0,0,0,0,0
+[2026/07/27 21:47:03] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,5,2026/07/27,21:47:03,0.238,1.119,0
+[2026/07/27 21:48:09] Success : (WriteCalibrationParameter) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv,4,2026/07/27,21:48:09, ,0.25,0,0.387,0,0,0,0,0,0,0,0,0,0,0,0,0
+[2026/07/27 21:49:37] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,6,2026/07/27,21:49:37,0.238,1.119,0
+[2026/07/27 21:49:57] Success (CreateCalibrationParameterExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv
+[2026/07/27 21:49:57] Success : (WriteCalibrationParameter) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv,1,2026/07/27,21:49:57, ,0.25,0,0.387,0,0,0,0,0,0,0,0,0,0,0,0,0
+[2026/07/27 21:50:15] Success : (WriteCalibrationParameter) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv,2,2026/07/27,21:50:15, ,0.2500001,0,0.387,0,0,0,0,0,0,0,0,0,0,0,0,0
+[2026/07/27 21:50:47] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteCalibrationParameter(String Path, Single[] _AnalyseData) 於 C:\AppSource\ToCsv.cs: 行 521 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteCalibrationParameter(String Path, Single[] _AnalyseData) 於 C:\AppSource\ToCsv.cs: 行 521
+
+[2026/07/27 21:51:12] Success : (WriteCalibrationParameter) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv,3,2026/07/27,21:51:12, ,0.2500001,0,0.3108281,0,0,0,0,0,0,0,0,0,0,0,0,0
+[2026/07/27 21:52:16] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteCalibrationParameter(String Path, Single[] _AnalyseData) 於 C:\AppSource\ToCsv.cs: 行 521 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteCalibrationParameter(String Path, Single[] _AnalyseData) 於 C:\AppSource\ToCsv.cs: 行 521
+
+[2026/07/27 21:52:22] Success : (WriteCalibrationParameter) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\CalibrationParameterCsv\20260727.csv,4,2026/07/27,21:52:22, ,0.2500001,0,0.3108281,0,0,0,0,0,0,0,0,0,0,0,0,0.389
+[2026/07/27 22:04:15] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,7,2026/07/27,22:04:15,0.238,1.119,0
+[2026/07/27 22:06:40] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,8,2026/07/27,22:06:40,0.238,1.119,0
+[2026/07/27 22:12:27] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,9,2026/07/27,22:12:27,0.238,1.119,0
+[2026/07/27 22:15:42] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,10,2026/07/27,22:15:42,0.238,1.119,0
+[2026/07/27 22:22:30] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv
+[2026/07/27 22:22:30] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,1,2026/07/27,22:22:30,-2.954065E-06,0.003498051,0
+[2026/07/27 22:24:43] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\20260727.csv,2,2026/07/27,22:24:43,0.238,1.119,0

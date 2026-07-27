@@ -8,13 +8,15 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using CsvHelper;
 using System.Windows.Markup;
+using System.Windows.Shapes;
+using System.IO.Ports;
 
 namespace EagleControl_Native2_CuFe
 {
 
     internal class ToCsv
     {
-        string[][] _alertTotalList = new string[74][];
+        string[][] _alertTotalList = new string[78][];
 
         private static String folderPath = Environment.CurrentDirectory;
 
@@ -49,52 +51,56 @@ namespace EagleControl_Native2_CuFe
             _alertTotalList[25] = new string[] { "D7003", "7", "56", "PLC1_Normal_Warning1.7—报警：部件X需更换" };
             _alertTotalList[26] = new string[] { "D7003", "8", "57", "PLC1_Normal_Warning1.8—报警：部件X需更换" };
             _alertTotalList[27] = new string[] { "D7003", "9", "58", "PLC1_Normal_Warning1.9—报警：部件X需更换" };
-            _alertTotalList[28] = new string[] { "D7004", "0", "201", "PLC1_A1_Fault0.0—停机报警：送样超时" };
-            _alertTotalList[29] = new string[] { "D7004", "1", "202", "PLC1_A1_Fault0.1—停机报警：取样超时" };
-            _alertTotalList[30] = new string[] { "D7012", "0", "401", "PLC1_B1_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[31] = new string[] { "D7012", "1", "402", "PLC1_B1_Fault0.1—停机报警：注射泵1通讯异常" };
-            _alertTotalList[32] = new string[] { "D7012", "2", "403", "PLC1_B1_Fault0.2—停机报警：注射泵1饱管失败" };
-            _alertTotalList[33] = new string[] { "D7016", "0", "501", "PLC1_B2_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[34] = new string[] { "D7016", "1", "502", "PLC1_B2_Fault0.1—停机报警：注射泵2通讯异常" };
-            _alertTotalList[35] = new string[] { "D7016", "2", "503", "PLC1_B2_Fault0.2—停机报警：注射泵2饱管失败" };
-            _alertTotalList[36] = new string[] { "D7020", "0", "601", "PLC1_B3_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[37] = new string[] { "D7020", "1", "602", "PLC1_B3_Fault0.1—停机报警：注射泵3通讯异常" };
-            _alertTotalList[38] = new string[] { "D7020", "2", "603", "PLC1_B3_Fault0.2—停机报警：注射泵3饱管失败" };
-            _alertTotalList[39] = new string[] { "D7024", "0", "701", "PLC1_C1_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[40] = new string[] { "D7024", "1", "702", "PLC1_C1_Fault0.1—停机报警：纯水超时" };
-            _alertTotalList[41] = new string[] { "D7028", "0", "801", "PLC1_C2_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[42] = new string[] { "D7028", "1", "802", "PLC1_C2_Fault0.1—停机报警：纯水超时" };
-            _alertTotalList[43] = new string[] { "D7032", "0", "901", "PLC1_C3_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[44] = new string[] { "D7032", "1", "902", "PLC1_C3_Fault0.1—停机报警：纯水超时" };
-            _alertTotalList[45] = new string[] { "D7036", "0", "1001", "PLC1_C4_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[46] = new string[] { "D7040", "0", "1101", "PLC1_C5_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[47] = new string[] { "D7040", "1", "1102", "PLC1_C5_Fault0.1—停机报警：清洁液超时" };
-            _alertTotalList[48] = new string[] { "D7040", "2", "1103", "PLC1_C5_Fault0.2—停机报警：排废超时" };
-            _alertTotalList[49] = new string[] { "D7044", "0", "1201", "PLC1_C6_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[50] = new string[] { "D7048", "0", "1301", "PLC1_C7_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[51] = new string[] { "D7052", "0", "1401", "PLC1_D2_Fault0.0—停机报警：样液回退超时" };
-            _alertTotalList[52] = new string[] { "D7064", "0", "1701", "PLC1_F1_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[53] = new string[] { "D7064", "1", "1702", "PLC1_F1_Fault0.1—停机报警：纯水超时" };
-            _alertTotalList[54] = new string[] { "D7068", "0", "1801", "PLC1_S1_Fault0.0—停机报警：排废超时" };
-            _alertTotalList[55] = new string[] { "D7068", "1", "1802", "PLC1_S1_Fault0.1—停机报警：pH4供液超时" };
-            _alertTotalList[56] = new string[] { "D7068", "2", "1803", "PLC1_S1_Fault0.2—停机报警：排废超时" };
-            _alertTotalList[57] = new string[] { "D7068", "3", "1804", "PLC1_S1_Fault0.3—停机报警：PH4供液超时" };
-            _alertTotalList[58] = new string[] { "D7068", "4", "1805", "PLC1_S1_Fault0.4—停机报警：pH4校正异常" };
-            _alertTotalList[59] = new string[] { "D7068", "5", "1806", "PLC1_S1_Fault0.5—停机报警：排废超时" };
-            _alertTotalList[60] = new string[] { "D7068", "6", "1807", "PLC1_S1_Fault0.6—停机报警：pH7供液超时" };
-            _alertTotalList[61] = new string[] { "D7068", "7", "1808", "PLC1_S1_Fault0.7—停机报警：排废超时" };
-            _alertTotalList[62] = new string[] { "D7068", "8", "1809", "PLC1_S1_Fault0.8—停机报警：pH7供液超时" };
-            _alertTotalList[63] = new string[] { "D7068", "9", "1810", "PLC1_S1_Fault0.9—停机报警：pH7校正异常" };
-            _alertTotalList[64] = new string[] { "D7069", "0", "1817", "PLC1_S1_Fault1.0—停机报警：pH7供液超时" };
-            _alertTotalList[65] = new string[] { "D7069", "1", "1818", "PLC1_S1_Fault1.1—停机报警：pH7校正异常" };
-            _alertTotalList[66] = new string[] { "D7070", "0", "1833", "PLC1_S1_Warning0.0—报警:斜率过低建议更换电极" };
-            _alertTotalList[67] = new string[] { "D7070", "1", "1834", "PLC1_S1_Warning0.1—报警:斜率过低建议更换电极" };
-            _alertTotalList[68] = new string[] { "D7074", "0", "1933", "PLC1_Z1_Warning0.0—报警:纯水补给超时" };
-            _alertTotalList[69] = new string[] { "D7076", "0", "2001", "PLC1_T1_Fault0.0—停机报警：纯水稀释超时" };
-            _alertTotalList[70] = new string[] { "D7076", "15", "2016", "PLC1_T1_Fault0.F—停机报警：滴定超时" };
-            _alertTotalList[71] = new string[] { "D7078", "0", "2033", "PLC1_T1_Warning0.0—报警:pH滴定初始值异常" };
-            _alertTotalList[72] = new string[] { "D7078", "1", "2034", "PLC1_T1_Warning0.1—报警:ORP滴定初始值异常" };
-            _alertTotalList[73] = new string[] { "D7080", "0", "2101", "PLC1_D3_Fault0.0—停机报警：注射泵1通讯异常" };
+            _alertTotalList[28] = new string[] { "D7003", "10", "59", "PLC1_Normal_Warning1.A—报警：分析浓度超规" };
+            _alertTotalList[29] = new string[] { "D7004", "0", "201", "PLC1_A1_Fault0.0—停机报警：送样超时" };
+            _alertTotalList[30] = new string[] { "D7004", "1", "202", "PLC1_A1_Fault0.1—停机报警：取样超时" };
+            _alertTotalList[31] = new string[] { "D7012", "0", "401", "PLC1_B1_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[32] = new string[] { "D7012", "1", "402", "PLC1_B1_Fault0.1—停机报警：注射泵1通讯异常" };
+            _alertTotalList[33] = new string[] { "D7012", "2", "403", "PLC1_B1_Fault0.2—停机报警：注射泵1饱管失败" };
+            _alertTotalList[34] = new string[] { "D7016", "0", "501", "PLC1_B2_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[35] = new string[] { "D7016", "1", "502", "PLC1_B2_Fault0.1—停机报警：注射泵2通讯异常" };
+            _alertTotalList[36] = new string[] { "D7016", "2", "503", "PLC1_B2_Fault0.2—停机报警：注射泵2饱管失败" };
+            _alertTotalList[37] = new string[] { "D7020", "0", "601", "PLC1_B3_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[38] = new string[] { "D7020", "1", "602", "PLC1_B3_Fault0.1—停机报警：注射泵3通讯异常" };
+            _alertTotalList[39] = new string[] { "D7020", "2", "603", "PLC1_B3_Fault0.2—停机报警：注射泵3饱管失败" };
+            _alertTotalList[40] = new string[] { "D7024", "0", "701", "PLC1_C1_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[41] = new string[] { "D7024", "1", "702", "PLC1_C1_Fault0.1—停机报警：纯水超时" };
+            _alertTotalList[42] = new string[] { "D7028", "0", "801", "PLC1_C2_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[43] = new string[] { "D7028", "1", "802", "PLC1_C2_Fault0.1—停机报警：纯水超时" };
+            _alertTotalList[44] = new string[] { "D7032", "0", "901", "PLC1_C3_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[45] = new string[] { "D7032", "1", "902", "PLC1_C3_Fault0.1—停机报警：纯水超时" };
+            _alertTotalList[46] = new string[] { "D7036", "0", "1001", "PLC1_C4_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[47] = new string[] { "D7040", "0", "1101", "PLC1_C5_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[48] = new string[] { "D7040", "1", "1102", "PLC1_C5_Fault0.1—停机报警：清洁液超时" };
+            _alertTotalList[49] = new string[] { "D7040", "2", "1103", "PLC1_C5_Fault0.2—停机报警：排废超时" };
+            _alertTotalList[50] = new string[] { "D7044", "0", "1201", "PLC1_C6_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[51] = new string[] { "D7048", "0", "1301", "PLC1_C7_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[52] = new string[] { "D7052", "0", "1401", "PLC1_D2_Fault0.0—停机报警：样液回退超时" };
+            _alertTotalList[53] = new string[] { "D7056", "10", "1501", "PLC1_T2_Fault0.0—停机故障：光学sensor送液超时" };
+            _alertTotalList[54] = new string[] { "D7062", "0", "1633", "PLC1_E1_Warning0.0—报警：光学检测空白异常" };
+            _alertTotalList[55] = new string[] { "D7064", "0", "1701", "PLC1_F1_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[56] = new string[] { "D7064", "1", "1702", "PLC1_F1_Fault0.1—停机报警：纯水超时" };
+            _alertTotalList[57] = new string[] { "D7068", "0", "1801", "PLC1_S1_Fault0.0—停机报警：排废超时" };
+            _alertTotalList[58] = new string[] { "D7068", "1", "1802", "PLC1_S1_Fault0.1—停机报警：pH4供液超时" };
+            _alertTotalList[59] = new string[] { "D7068", "2", "1803", "PLC1_S1_Fault0.2—停机报警：排废超时" };
+            _alertTotalList[60] = new string[] { "D7068", "3", "1804", "PLC1_S1_Fault0.3—停机报警：PH4供液超时" };
+            _alertTotalList[61] = new string[] { "D7068", "4", "1805", "PLC1_S1_Fault0.4—停机报警：pH4校正异常" };
+            _alertTotalList[62] = new string[] { "D7068", "5", "1806", "PLC1_S1_Fault0.5—停机报警：排废超时" };
+            _alertTotalList[63] = new string[] { "D7068", "6", "1807", "PLC1_S1_Fault0.6—停机报警：pH7供液超时" };
+            _alertTotalList[64] = new string[] { "D7068", "7", "1808", "PLC1_S1_Fault0.7—停机报警：排废超时" };
+            _alertTotalList[65] = new string[] { "D7068", "8", "1809", "PLC1_S1_Fault0.8—停机报警：pH7供液超时" };
+            _alertTotalList[66] = new string[] { "D7068", "9", "1810", "PLC1_S1_Fault0.9—停机报警：pH7校正异常" };
+            _alertTotalList[67] = new string[] { "D7069", "0", "1817", "PLC1_S1_Fault1.0—停机报警：pH7供液超时" };
+            _alertTotalList[68] = new string[] { "D7069", "1", "1818", "PLC1_S1_Fault1.1—停机报警：pH7校正异常" };
+            _alertTotalList[69] = new string[] { "D7070", "0", "1833", "PLC1_S1_Warning0.0—报警:斜率过低建议更换电极" };
+            _alertTotalList[70] = new string[] { "D7070", "1", "1834", "PLC1_S1_Warning0.1—报警:斜率过低建议更换电极" };
+            _alertTotalList[71] = new string[] { "D7074", "0", "1933", "PLC1_Z1_Warning0.0—报警:纯水补给超时" };
+            _alertTotalList[72] = new string[] { "D7076", "0", "2001", "PLC1_T1_Fault0.0—停机报警：纯水稀释超时" };
+            _alertTotalList[73] = new string[] { "D7076", "15", "2016", "PLC1_T1_Fault0.F—停机报警：滴定超时" };
+            _alertTotalList[74] = new string[] { "D7078", "0", "2033", "PLC1_T1_Warning0.0—报警:pH滴定初始值异常" };
+            _alertTotalList[75] = new string[] { "D7078", "1", "2034", "PLC1_T1_Warning0.1—报警:ORP滴定初始值异常" };
+            _alertTotalList[76] = new string[] { "D7078", "2", "2035", "PLC1_T1_Warning0.2—滴定过程异常" };
+            _alertTotalList[77] = new string[] { "D7080", "0", "2101", "PLC1_D3_Fault0.0—停机报警：注射泵1通讯异常" };
 
         }
 
@@ -170,7 +176,7 @@ namespace EagleControl_Native2_CuFe
 
                     csv.WriteField(currentCount);
                     csv.WriteField($"{DateTime.Now:yyyy/MM/dd}");
-                    csv.WriteField($"{DateTime.Now:HH:mm:ss}");
+                    csv.WriteField($"{DateTime.Now:HH:mm:ss.fff}");
                     csv.WriteField(Status);
 
                     //// 呼叫 NextRecord() 換行，表示一列結束
@@ -179,7 +185,12 @@ namespace EagleControl_Native2_CuFe
 
                 result = "1";
 
-                Log($"Success : (WriteStatus) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss},{Status}");
+                Log($"Success : (WriteStatus) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss.fff},{Status}");
+
+                
+
+                string[] content = new string[] { };
+
             }
             catch (Exception ex)
             {
@@ -323,7 +334,7 @@ namespace EagleControl_Native2_CuFe
                 }
 
                 result = "1";
-                
+
             }
             catch (Exception ex)
             {
@@ -375,7 +386,7 @@ namespace EagleControl_Native2_CuFe
             }
         }
 
-        public String WriteAnalyseData(short[] _AnalyseData)
+        public String WriteAnalyseData(float[] _AnalyseData)
         {
 
             string result = "0";
@@ -391,8 +402,18 @@ namespace EagleControl_Native2_CuFe
                 else if (_AnalyseData[0] == 3) FolderName = "留A";
                 else if (_AnalyseData[0] == 4) FolderName = "留B";
 
-                if (_AnalyseData[1] == 1) FolderName += "_銅";
-                else if (_AnalyseData[1] == 4) FolderName += "_鐵";
+                //toShowDataContent[0] = FolderName;
+
+                if (_AnalyseData[1] == 1) {
+                    FolderName += "_銅";
+                    //toShowDataContent[0] = _AnalyseData[3].ToString();
+                    //toShowDataContent[1] = "";
+                }
+                else if (_AnalyseData[1] == 4) {
+                    FolderName += "_鐵";
+                    //toShowDataContent[1] = _AnalyseData[3].ToString();
+                    //toShowDataContent[0] = "";
+                }
 
                 Path = System.IO.Path.Combine(folderPath, "CsvData", FolderName);
 
@@ -420,7 +441,7 @@ namespace EagleControl_Native2_CuFe
 
                     csv.WriteField(currentCount);
                     csv.WriteField($"{DateTime.Now:yyyy/MM/dd}");
-                    csv.WriteField($"{DateTime.Now:HH:mm:ss}");
+                    csv.WriteField($"{DateTime.Now:HH:mm:ss.fff}");
                     csv.WriteField(_AnalyseData[2]);
                     csv.WriteField(_AnalyseData[3]);
                     csv.WriteField(_AnalyseData[4]);
@@ -430,7 +451,10 @@ namespace EagleControl_Native2_CuFe
 
                 result = "1";
 
-                Log($"Success : (WriteAnalyseData) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss},{_AnalyseData[2]},{_AnalyseData[3]},{_AnalyseData[4]}");
+                Log($"Success : (WriteAnalyseData) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss.fff},{_AnalyseData[2]},{_AnalyseData[3]},{_AnalyseData[4]}");
+
+                //WriteShowDataCsv(System.IO.Path.Combine(folderPath,"ShowData","Data"),toShowDataContent);
+
             }
             catch (Exception ex)
             {
@@ -498,7 +522,7 @@ namespace EagleControl_Native2_CuFe
             }
         }
 
-        public String WriteCalibrationParameter(string Path, short[] _AnalyseData)
+        public String WriteCalibrationParameter(string Path, float[] _AnalyseData)
         {
 
             string result = "0";
@@ -530,7 +554,7 @@ namespace EagleControl_Native2_CuFe
 
                     csv.WriteField(currentCount);
                     csv.WriteField($"{DateTime.Now:yyyy/MM/dd}");
-                    csv.WriteField($"{DateTime.Now:HH:mm:ss}");
+                    csv.WriteField($"{DateTime.Now:HH:mm:ss.fff}");
 
                     
 
@@ -546,7 +570,322 @@ namespace EagleControl_Native2_CuFe
                 }
                 result = "1";
 
-                Log($"Success : (WriteCalibrationParameter) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss}, {data}");
+                Log($"Success : (WriteCalibrationParameter) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss.fff}, {data}");
+            }
+            catch (Exception ex)
+            {
+                Log($"{ex} \n{ex.StackTrace}\n");
+            }
+
+            return result;
+        }
+
+
+        public void CreateWriteShowDataCsv(string path)
+        {
+
+            DateTime currentTime = DateTime.Now;
+
+            var encoding = new System.Text.UTF8Encoding(true);
+
+            try
+            {
+
+                if (!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
+
+                // CSV 檔案路徑（建議加上 .csv 副檔名）
+                string csvPath = System.IO.Path.Combine(path, $"{DateTime.Now:yyyyMMdd}" + ".csv");
+
+                // 使用 CsvHelper 進行寫檔
+                using (var writer = new StreamWriter(csvPath, false, encoding))
+                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                {
+                    csv.WriteField("Index");
+                    csv.WriteField("日期(Date)");
+                    csv.WriteField("時間(Time)");
+
+                    csv.WriteField("料號(PartNo)");
+                    csv.WriteField("批號(LotID)");
+                    csv.WriteField("JobNo (or Quarter information)");
+                    csv.WriteField("工號(OPID)");
+                    csv.WriteField("生產程式(Recipe)");
+
+                    csv.WriteField("設備狀態");
+                    csv.WriteField("Cu");
+                    csv.WriteField("Fe");
+                    csv.NextRecord();
+                }
+
+                // 紀錄成功訊息
+                Log($"Success (CreateWriteShowDataCsv) => {csvPath}");
+            }
+            catch (Exception ex)
+            {
+                Log($"{ex} \n{ex.StackTrace}\n");
+            }
+        }
+
+
+        public String WriteShowDataCsv(string Path, string[] _content)
+        {
+
+            string result = "0";
+
+            try
+            {
+                // CSV 完整路徑（建議保證帶有 .csv 副檔名）
+                string csvPath = System.IO.Path.Combine(Path, $"{DateTime.Now:yyyyMMdd}" + ".csv");
+
+                // 若檔案不存在，先呼叫 CreateExcel( ) 建立表頭
+                if (!File.Exists(csvPath))
+                {
+                    CreateWriteShowDataCsv(Path);
+                }
+
+                int currentCount = 1;
+
+                string data = "";
+
+                currentCount = File.ReadLines(csvPath).Count();
+
+                var utf8WithBom = new UTF8Encoding(encoderShouldEmitUTF8Identifier: true);
+
+                // 以 Append 方式打開檔案，寫入新的一列資料
+                using (var stream = new FileStream(csvPath, FileMode.Append, FileAccess.Write))
+                using (var writer = new StreamWriter(stream, utf8WithBom))
+                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                {
+
+                    csv.WriteField(currentCount);
+                    csv.WriteField($"{DateTime.Now:yyyy/MM/dd}");
+                    csv.WriteField($"{DateTime.Now:HH:mm:ss.fff}");
+
+                    csv.WriteField("");
+                    csv.WriteField("");
+                    csv.WriteField("");
+                    csv.WriteField("");
+                    csv.WriteField("");
+                    csv.WriteField("Processing");
+
+                    for (int i = 0; i < _content.Length; i++)
+                    {
+
+                        csv.WriteField(_content[i]);
+
+                        data += "," + _content[i].ToString();
+                    }
+
+                    csv.NextRecord();
+                }
+                result = "1";
+
+                Log($"Success : (WriteShowDataCsv) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss.fff}, {data}");
+            }
+            catch (Exception ex)
+            {
+                Log($"{ex} \n{ex.StackTrace}\n");
+            }
+
+            return result;
+        }
+
+
+        public void CreateWriteShowEventCsv(string path)
+        {
+
+            DateTime currentTime = DateTime.Now;
+
+            var encoding = new System.Text.UTF8Encoding(true);
+
+            try
+            {
+
+                if (!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
+
+                // CSV 檔案路徑（建議加上 .csv 副檔名）
+                string csvPath = System.IO.Path.Combine(path, $"{DateTime.Now:yyyyMMdd}" + ".csv");
+
+                // 使用 CsvHelper 進行寫檔
+                using (var writer = new StreamWriter(csvPath, false, encoding))
+                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                {
+                    csv.WriteField("Index");
+                    csv.WriteField("日期(Date)");
+                    csv.WriteField("時間(Time)");
+
+                    csv.WriteField("料號(PartNo)");
+                    csv.WriteField("批號(LotID)");
+                    csv.WriteField("JobNo (or Quarter information)");
+                    csv.WriteField("工號(OPID)");
+                    csv.WriteField("生產程式(Recipe)");
+
+                    csv.WriteField("設備狀態");
+                    csv.WriteField("錯誤代碼");
+                    csv.WriteField("代碼訊息");
+                    csv.NextRecord();
+                }
+
+                // 紀錄成功訊息
+                Log($"Success (CreateWriteShowEventCsv) => {csvPath}");
+            }
+            catch (Exception ex)
+            {
+                Log($"{ex} \n{ex.StackTrace}\n");
+            }
+        }
+
+
+        public String WriteShowEventCsv(string Path, List<List<string>> TotalList)
+        {
+
+            string result = "0";
+
+            try
+            {
+                // CSV 完整路徑（建議保證帶有 .csv 副檔名）
+                string csvPath = System.IO.Path.Combine(Path, $"{DateTime.Now:yyyyMMdd}" + ".csv");
+
+                // 若檔案不存在，先呼叫 CreateExcel( ) 建立表頭
+                if (!File.Exists(csvPath))
+                {
+                    CreateWriteShowEventCsv(Path);
+                }
+
+                int currentCount = 1;
+
+                string data = "";
+
+                currentCount = File.ReadLines(csvPath).Count();
+
+                string[] parts = null;
+
+                var utf8WithBom = new UTF8Encoding(encoderShouldEmitUTF8Identifier: true);
+
+                // 以 Append 方式打開檔案，寫入新的一列資料
+                using (var stream = new FileStream(csvPath, FileMode.Append, FileAccess.Write))
+                using (var writer = new StreamWriter(stream, utf8WithBom))
+                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                {
+
+                    for (int i = 0; i < TotalList.Count; i++)
+                    {
+                        csv.WriteField(currentCount+i);
+
+                        parts = TotalList[i][3].Split(' ');
+
+                        csv.WriteField(parts[0]);
+                        csv.WriteField(parts[1]);
+
+                        csv.WriteField("");
+                        csv.WriteField("");
+                        csv.WriteField("");
+                        csv.WriteField("");
+                        csv.WriteField("");
+
+                        if (TotalList[i][2] == "ON")
+                        {
+                            csv.WriteField("Alarm start");
+                            csv.WriteField(TotalList[i][5]);
+                            csv.WriteField(TotalList[i][6]);
+                            //csv.WriteField("T");
+
+                            //Log($"Success : (WriteShowEventCsv) => {csvPath},{currentCount + i},{parts[0]},{parts[1]},{TotalList[i][5]},{TotalList[i][6]}, T");
+                            Log($"Success : (WriteShowEventCsv) => {csvPath},{currentCount + i},{parts[0]},{parts[1]},{TotalList[i][5]},{TotalList[i][6]}");
+                        }
+
+                        else if (TotalList[i][2] == "OFF")
+                        {
+                            csv.WriteField("Alarm end");
+                            csv.WriteField(TotalList[i][4]);
+                            csv.WriteField(TotalList[i][5]);
+                            //csv.WriteField("F");
+
+                            //Log($"Success : (WriteShowEventCsv) => {csvPath},{currentCount + i},{parts[0]},{parts[1]},{TotalList[i][4]},{TotalList[i][5]}, F");
+                            Log($"Success : (WriteShowEventCsv) => {csvPath},{currentCount + i},{parts[0]},{parts[1]},{TotalList[i][4]},{TotalList[i][5]}");
+                        }
+
+                        csv.NextRecord();
+
+
+                    }
+
+                }
+                result = "1";
+            }
+            catch (Exception ex)
+            {
+                Log($"{ex} \n{ex.StackTrace}\n");
+            }
+
+            return result;
+        }
+
+
+
+        public String WriteShowEventCsv(string Path, string[] _content)
+        {
+
+            string result = "0";
+
+            try
+            {
+                // CSV 完整路徑（建議保證帶有 .csv 副檔名）
+                string csvPath = System.IO.Path.Combine(Path, $"{DateTime.Now:yyyyMMdd}" + ".csv");
+
+                // 若檔案不存在，先呼叫 CreateExcel( ) 建立表頭
+                if (!File.Exists(csvPath))
+                {
+                    CreateWriteShowEventCsv(Path);
+                }
+
+                int currentCount = 1;
+
+                string data = "";
+
+                currentCount = File.ReadLines(csvPath).Count();
+
+                string[] parts = null;
+
+                var utf8WithBom = new UTF8Encoding(encoderShouldEmitUTF8Identifier: true);
+
+                // 以 Append 方式打開檔案，寫入新的一列資料
+                using (var stream = new FileStream(csvPath, FileMode.Append, FileAccess.Write))
+                using (var writer = new StreamWriter(stream, utf8WithBom))
+                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                {
+
+                    
+                    csv.WriteField(currentCount);
+
+                    csv.WriteField($"{DateTime.Now:yyyyMMdd}");
+                    csv.WriteField($"{DateTime.Now:HH:mm:ss.fff}");
+
+                    csv.WriteField("");
+                    csv.WriteField("");
+                    csv.WriteField("");
+                    csv.WriteField("");
+                    csv.WriteField("");
+
+                    for (int i = 0; i < _content.Length; i++)
+                    {
+
+                        csv.WriteField(_content[i]);
+
+                    }
+                    
+                    Log($"Success : (WriteShowEventCsv) => {csvPath},{currentCount},{DateTime.Now:yyyyMMdd},{DateTime.Now:HH:mm:ss.fff},,,,,,{_content[0]},{_content[1]},{_content[2]}");
+
+                    csv.NextRecord();
+
+                }
+
+                result = "1";
             }
             catch (Exception ex)
             {

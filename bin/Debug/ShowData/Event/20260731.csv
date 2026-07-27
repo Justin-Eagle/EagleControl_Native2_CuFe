@@ -1,0 +1,9 @@
+﻿Index,日期(Date),時間(Time),料號(PartNo),批號(LotID),JobNo (or Quarter information),工號(OPID),生產程式(Recipe),設備狀態,錯誤代碼,代碼訊息
+1,20260731,12:15:09.294,,,,,,Working,0,分析中
+2,20260731,12:15:09.308,,,,,,Error reset,105,Fe3+監控濃度在規格內
+3,2026/07/31,12:15:12.013,,,,,,Alarm start,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+4,2026/07/31,12:15:12.013,,,,,,Alarm start,5,PLC1_Normal_Fault0.4—停机报警：反应杯液位Sensor异常
+5,2026/07/31,12:15:12.015,,,,,,Alarm start,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+6,20260731,12:16:16.445,,,,,,Analyze start,104,Fe3+检测开始
+7,20260731,12:19:09.986,,,,,,Working,0,分析中
+8,20260731,12:19:10.005,,,,,,Analyze start,104,Fe3+检测开始

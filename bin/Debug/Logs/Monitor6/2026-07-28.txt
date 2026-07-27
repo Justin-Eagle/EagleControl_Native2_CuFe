@@ -1,0 +1,16 @@
+[2026/07/28 14:04:31] 監控啟動
+[2026/07/28 14:04:54] 心跳交握出現異常!!
+[2026/07/28 14:05:08] 監控關閉
+[2026/07/28 14:05:09] 監控啟動
+[2026/07/28 14:05:31] 心跳交握出現異常!!
+[2026/07/28 14:05:34] 監控關閉
+[2026/07/28 14:23:17] 監控啟動
+[2026/07/28 14:23:26] 監控關閉
+[2026/07/28 14:23:27] 監控啟動
+[2026/07/28 14:23:27] 輸入字串格式不正確。
+   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 System.Int32.Parse(String s)
+   於 EagleControl_Native2_CuFe.MainWindow.GoButton_Click(Object sender, RoutedEventArgs e) 於 C:\AppSource\MainWindow.xaml.cs: 行 72
+[2026/07/28 14:23:31] 監控啟動
+[2026/07/28 14:23:39] 監控關閉

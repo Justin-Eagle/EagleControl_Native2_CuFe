@@ -1,0 +1,156 @@
+[2026/07/30 16:29:59] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,15,2026/07/30,16:29:59,分析中
+[2026/07/30 16:29:59] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,8,20260730,16:29:59.668,,,,,,Working,0,分析中
+[2026/07/30 16:29:59] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,9,20260730,16:29:59.686,,,,,,Analyze start,104,Fe3+检测开始
+[2026/07/30 16:30:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,16,2026/07/30,16:30:04,34,PLC1_Normal_Warning0.1—报警：部件X需更换, T
+[2026/07/30 16:30:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,17,2026/07/30,16:30:04,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, T
+[2026/07/30 16:30:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,18,2026/07/30,16:30:04,36,PLC1_Normal_Warning0.3—报警：药水1需添加, T
+[2026/07/30 16:30:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,10,2026/07/30,16:30:04,34,PLC1_Normal_Warning0.1—报警：部件X需更换, T
+[2026/07/30 16:30:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,11,2026/07/30,16:30:04,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, T
+[2026/07/30 16:30:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,12,2026/07/30,16:30:04,36,PLC1_Normal_Warning0.3—报警：药水1需添加, T
+[2026/07/30 16:30:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,19,2026/07/30,16:30:32,34,PLC1_Normal_Warning0.1—报警：部件X需更换, T
+[2026/07/30 16:30:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,20,2026/07/30,16:30:32,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, T
+[2026/07/30 16:30:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,21,2026/07/30,16:30:32,36,PLC1_Normal_Warning0.3—报警：药水1需添加, T
+[2026/07/30 16:30:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,22,2026/07/30,16:30:42,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, F
+[2026/07/30 16:30:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,23,2026/07/30,16:30:45,36,PLC1_Normal_Warning0.3—报警：药水1需添加, F
+[2026/07/30 16:30:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,24,2026/07/30,16:30:47,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/07/30 16:30:52] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, List`1 TotalList) 於 C:\AppSource\ToCsv.cs: 行 760 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, List`1 TotalList) 於 C:\AppSource\ToCsv.cs: 行 760
+
+[2026/07/30 16:31:35] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,16,2026/07/30,16:31:35,分析中
+[2026/07/30 16:31:35] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv
+[2026/07/30 16:31:35] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,1,20260730,16:31:35.967,,,,,,Working,0,分析中
+[2026/07/30 16:31:35] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,2,20260730,16:31:35.986,,,,,,Analyze start,104,Fe3+检测开始
+[2026/07/30 16:31:48] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,25,2026/07/30,16:31:38,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/07/30 16:31:48] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,26,2026/07/30,16:31:38,34,PLC1_Normal_Warning0.1—报警：部件X需更换, T
+[2026/07/30 16:31:48] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,27,2026/07/30,16:31:43,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, T
+[2026/07/30 16:31:48] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,28,2026/07/30,16:31:43,36,PLC1_Normal_Warning0.3—报警：药水1需添加, T
+[2026/07/30 16:31:48] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,29,2026/07/30,16:31:45,34,PLC1_Normal_Warning0.1—报警：部件X需更换, F
+[2026/07/30 16:31:48] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,3,2026/07/30,16:31:38,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/07/30 16:31:48] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,4,2026/07/30,16:31:38,34,PLC1_Normal_Warning0.1—报警：部件X需更换, T
+[2026/07/30 16:31:48] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,5,2026/07/30,16:31:43,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, T
+[2026/07/30 16:31:48] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,6,2026/07/30,16:31:43,36,PLC1_Normal_Warning0.3—报警：药水1需添加, T
+[2026/07/30 16:31:48] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,7,2026/07/30,16:31:45,34,PLC1_Normal_Warning0.1—报警：部件X需更换, F
+[2026/07/30 16:32:13] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,17,2026/07/30,16:32:13,警告
+[2026/07/30 16:32:36] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,30,2026/07/30,16:32:13,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/07/30 16:32:36] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,31,2026/07/30,16:32:13,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, T
+[2026/07/30 16:32:36] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,32,2026/07/30,16:32:13,36,PLC1_Normal_Warning0.3—报警：药水1需添加, T
+[2026/07/30 16:32:36] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,33,2026/07/30,16:32:23,51,PLC1_Normal_Warning1.2—报警：mini2 需要更换, T
+[2026/07/30 16:32:36] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,34,2026/07/30,16:32:23,52,PLC1_Normal_Warning1.3—报警：mini4 需要更换, T
+[2026/07/30 16:32:36] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,35,2026/07/30,16:32:26,36,PLC1_Normal_Warning0.3—报警：药水1需添加, F
+[2026/07/30 16:32:36] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,36,2026/07/30,16:32:28,50,PLC1_Normal_Warning1.1—报警：电磁阀需要更换, T
+[2026/07/30 16:32:36] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,37,2026/07/30,16:32:31,50,PLC1_Normal_Warning1.1—报警：电磁阀需要更换, F
+[2026/07/30 16:32:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,8,2026/07/30,16:32:13,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/07/30 16:32:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,9,2026/07/30,16:32:13,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, T
+[2026/07/30 16:32:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,10,2026/07/30,16:32:13,36,PLC1_Normal_Warning0.3—报警：药水1需添加, T
+[2026/07/30 16:32:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,11,2026/07/30,16:32:23,51,PLC1_Normal_Warning1.2—报警：mini2 需要更换, T
+[2026/07/30 16:32:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,12,2026/07/30,16:32:23,52,PLC1_Normal_Warning1.3—报警：mini4 需要更换, T
+[2026/07/30 16:32:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,13,2026/07/30,16:32:26,36,PLC1_Normal_Warning0.3—报警：药水1需添加, F
+[2026/07/30 16:32:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,14,2026/07/30,16:32:28,50,PLC1_Normal_Warning1.1—报警：电磁阀需要更换, T
+[2026/07/30 16:32:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,15,2026/07/30,16:32:31,50,PLC1_Normal_Warning1.1—报警：电磁阀需要更换, F
+[2026/07/30 17:07:38] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,18,2026/07/30,17:07:38,分析中
+[2026/07/30 17:07:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,16,20260730,17:07:38.068,,,,,,Working,0,分析中
+[2026/07/30 17:07:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,17,20260730,17:07:38.087,,,,,,Analyze start,104,Fe3+检测开始
+[2026/07/30 17:07:45] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,19,2026/07/30,17:07:45,警告
+[2026/07/30 17:13:44] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,20,2026/07/30,17:13:44,分析中
+[2026/07/30 17:13:44] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,18,20260730,17:13:44.094,,,,,,Working,0,分析中
+[2026/07/30 17:13:44] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,21,2026/07/30,17:13:44,警告
+[2026/07/30 17:13:53] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,22,2026/07/30,17:13:53,分析中
+[2026/07/30 17:13:53] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,19,20260730,17:13:53.523,,,,,,Working,0,分析中
+[2026/07/30 17:13:53] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,23,2026/07/30,17:13:53,警告
+[2026/07/30 17:13:53] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,20,20260730,17:13:53.554,,,,,,Analyze start,104,Fe3+检测开始
+[2026/07/30 17:14:13] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,7,2026/07/30,17:14:13,0,12.33,0
+[2026/07/30 17:14:13] Success (CreateWriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv
+[2026/07/30 17:14:13] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,1,2026/07/30,17:14:13, ,,12.33
+[2026/07/30 17:14:13] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,21,2026/07/30,17:14:13, ,,12.33
+[2026/07/30 17:14:16] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,8,2026/07/30,17:14:16,0,12.33,0
+[2026/07/30 17:14:16] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,2,2026/07/30,17:14:16, ,,12.33
+[2026/07/30 17:14:16] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,22,2026/07/30,17:14:16, ,,12.33
+[2026/07/30 17:14:18] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,9,2026/07/30,17:14:18,0,12.33,0
+[2026/07/30 17:14:18] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,3,2026/07/30,17:14:18, ,,12.33
+[2026/07/30 17:14:18] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,23,2026/07/30,17:14:18, ,,12.33
+[2026/07/30 17:14:21] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,10,2026/07/30,17:14:21,0,12.33,0
+[2026/07/30 17:14:21] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,4,2026/07/30,17:14:21, ,,12.33
+[2026/07/30 17:14:21] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,24,2026/07/30,17:14:21, ,,12.33
+[2026/07/30 17:14:23] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,11,2026/07/30,17:14:23,0,12.33,0
+[2026/07/30 17:14:23] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,5,2026/07/30,17:14:23, ,,12.33
+[2026/07/30 17:14:23] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,25,2026/07/30,17:14:23, ,,12.33
+[2026/07/30 17:16:31] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,24,2026/07/30,17:16:31,分析中
+[2026/07/30 17:16:31] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv
+[2026/07/30 17:16:31] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,1,20260730,17:16:31.500,,,,,,Working,0,分析中
+[2026/07/30 17:16:31] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,25,2026/07/30,17:16:31,警告
+[2026/07/30 17:16:31] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,12,2026/07/30,17:16:31,0,12.33,0
+[2026/07/30 17:16:31] Success (CreateWriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv
+[2026/07/30 17:16:31] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,1,2026/07/30,17:16:31, ,,12.33
+[2026/07/30 17:16:31] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,2,2026/07/30,17:16:31, ,,12.33
+[2026/07/30 17:18:37] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,26,2026/07/30,17:18:37,分析中
+[2026/07/30 17:18:37] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv
+[2026/07/30 17:18:37] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,1,20260730,17:18:37.089,,,,,,Working,0,分析中
+[2026/07/30 17:18:37] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,27,2026/07/30,17:18:37,警告
+[2026/07/30 17:18:37] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,13,2026/07/30,17:18:37,0,12.33,0
+[2026/07/30 17:18:37] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,2,2026/07/30,17:18:37, ,,12.33
+[2026/07/30 17:18:37] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,2,2026/07/30,17:18:37, ,Error reset,105,Fe3+監控濃度在規格內
+[2026/07/30 17:19:26] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,28,2026/07/30,17:19:26,分析中
+[2026/07/30 17:19:26] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,3,20260730,17:19:26.629,,,,,,Working,0,分析中
+[2026/07/30 17:19:26] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,29,2026/07/30,17:19:26,警告
+[2026/07/30 17:19:26] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,14,2026/07/30,17:19:26,0,12.33,0
+[2026/07/30 17:19:26] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,3,2026/07/30,17:19:26, ,,12.33
+[2026/07/30 17:19:26] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,4,20260730,17:19:26.683,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/07/30 17:20:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,38,2026/07/30,17:19:26,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/07/30 17:20:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,39,2026/07/30,17:19:26,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, T
+[2026/07/30 17:20:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,40,2026/07/30,17:19:26,51,PLC1_Normal_Warning1.2—报警：mini2 需要更换, T
+[2026/07/30 17:20:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260730.csv,41,2026/07/30,17:19:26,52,PLC1_Normal_Warning1.3—报警：mini4 需要更换, T
+[2026/07/30 17:20:07] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv
+[2026/07/30 17:20:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,1,2026/07/30,17:19:26,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/07/30 17:20:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,2,2026/07/30,17:19:26,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, T
+[2026/07/30 17:20:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,3,2026/07/30,17:19:26,51,PLC1_Normal_Warning1.2—报警：mini2 需要更换, T
+[2026/07/30 17:20:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,4,2026/07/30,17:19:26,52,PLC1_Normal_Warning1.3—报警：mini4 需要更换, T
+[2026/07/30 17:23:31] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,30,2026/07/30,17:23:31,分析中
+[2026/07/30 17:23:31] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,5,20260730,17:23:31.158,,,,,,Working,0,分析中
+[2026/07/30 17:23:31] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,15,2026/07/30,17:23:31,0,12.33,0
+[2026/07/30 17:23:31] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,4,2026/07/30,17:23:31, ,,12.33
+[2026/07/30 17:23:31] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,6,20260730,17:23:31.190,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/07/30 17:24:04] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,31,2026/07/30,17:24:04,分析中
+[2026/07/30 17:24:04] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv
+[2026/07/30 17:24:04] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,1,20260730,17:24:04.294,,,,,,Working,0,分析中
+[2026/07/30 17:24:04] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,16,2026/07/30,17:24:04,0,12.33,0
+[2026/07/30 17:24:07] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,5,2026/07/30,17:24:07, ,,12.33
+[2026/07/30 17:24:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,2,20260730,17:24:07.820,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/07/30 17:24:26] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,32,2026/07/30,17:24:26,分析中
+[2026/07/30 17:24:26] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,3,20260730,17:24:26.734,,,,,,Working,0,分析中
+[2026/07/30 17:24:26] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,33,2026/07/30,17:24:26,警告
+[2026/07/30 17:24:47] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,17,2026/07/30,17:24:47,0,12.33,0
+[2026/07/30 17:24:47] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,6,2026/07/30,17:24:47, ,,12.33
+[2026/07/30 17:24:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,4,20260730,17:24:47.480,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/07/30 17:26:26] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,34,2026/07/30,17:26:26,分析中
+[2026/07/30 17:26:26] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,5,20260730,17:26:26.163,,,,,,Working,0,分析中
+[2026/07/30 17:26:26] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,35,2026/07/30,17:26:26,警告
+[2026/07/30 23:51:38] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,36,2026/07/30,23:51:38,分析中
+[2026/07/30 23:51:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,6,20260730,23:51:38.630,,,,,,Working,0,分析中
+[2026/07/30 23:51:38] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,37,2026/07/30,23:51:38,警告
+[2026/07/30 23:53:23] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,18,2026/07/30,23:53:23,0,12.33,0
+[2026/07/30 23:53:23] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,7,2026/07/30,23:53:23, ,,12.33
+[2026/07/30 23:53:23] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,7,20260730,23:53:23.414,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/07/30 23:58:01] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,38,2026/07/30,23:58:01,分析中
+[2026/07/30 23:58:01] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,8,20260730,23:58:01.561,,,,,,Working,0,分析中
+[2026/07/30 23:58:01] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,39,2026/07/30,23:58:01,警告
+[2026/07/30 23:58:29] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,40,2026/07/30,23:58:29,分析中
+[2026/07/30 23:58:29] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,9,20260730,23:58:29.918,,,,,,Working,0,分析中
+[2026/07/30 23:58:29] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,41,2026/07/30,23:58:29,警告
+[2026/07/30 23:58:32] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260730.csv,19,2026/07/30,23:58:32,0,12.33,0
+[2026/07/30 23:58:32] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260730.csv,8,2026/07/30,23:58:32, ,,12.33
+[2026/07/30 23:59:40] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,42,2026/07/30,23:59:40,分析中
+[2026/07/30 23:59:40] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260730.csv,10,20260730,23:59:40.691,,,,,,Working,0,分析中
+[2026/07/30 23:59:40] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260730.csv,43,2026/07/30,23:59:40,警告

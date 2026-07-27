@@ -141,6 +141,8 @@ namespace EagleControl_Native2_CuFe
             bool _brokening;
             bool _alerting;
 
+            string temV = "";
+
             NextHeartBeat = ReadHeartBeat();
 
             int WriteAlready = 0;
@@ -151,6 +153,8 @@ namespace EagleControl_Native2_CuFe
             string content = "";
 
             bool _analyseDataIsAlreadyWrite = false;
+
+            int HeartBeatDownCount = 0;
 
             short[] _rawData = new short[1];
 
@@ -199,31 +203,40 @@ namespace EagleControl_Native2_CuFe
 
             var row = new List<string>();
 
-            short[] _calibrationParameter = new short[16];
+            short[] _calibrationParameter = new short[32];
 
-            short[] _nowCalibrationParameter = new short[16];
+            short[] _nowCalibrationParameter = new short[32];
 
             string Catch_1 = "D3692\n"; //判斷機台狀態
             string Catch_2 = content; //判斷錯誤的 deviceList
             string Catch_3 = "D3510\n"; //判斷濃度
-            string Catch_4 = "D3511\nD3512\nD3520\nD3522\nD7732\n"; //判斷濃度
-            string Catch_5 = "D3530\nD3532\nD3538\nD3540\nD3554\nD356\nD3562\nD3564\nD3578\nD3580\nD3586\nD3588\nD3602\nD3604\nD3610\nD3612\n"; //判斷參數調整
+            string Catch_4 = "D3511\nD3512\nD3520\nD3521\nD3522\nD3523\nD7732\nD7733\n"; //判斷濃度(加3)
+            string Catch_5 = "D3530\nD3531\nD3532\nD3533\nD3538\nD3539\nD3540\nD3541\nD3554\nD3555\nD356\nD357\nD3562\nD3563\nD3564\nD3565\nD3578\nD3579\nD3580\nD3581\nD3586\nD3587\nD3588\nD3589\nD3602\nD3603\nD3604\nD3605\nD3610\nD3611\nD3612\nD3613\n"; //判斷參數調整
 
-            short[] TotolContent = Read(Catch_1 + Catch_2 + Catch_3 + Catch_4 + Catch_5, 1 + 25 + 1 + 5 + 16);
+            short[] TotolContent = Read(Catch_1 + Catch_2 + Catch_3 + Catch_4 + Catch_5, 1 + 25 + 1 + 8 + 32);
 
-            Array.Copy(TotolContent, 32, _calibrationParameter, 0, 16);
+            Array.Copy(TotolContent, 35, _calibrationParameter, 0, 32);
 
             while (!cancellationToken.IsCancellationRequested)
             {
                 try
                 {
 
-                    TotolContent = Read(Catch_1+ Catch_2+ Catch_3+ Catch_4+ Catch_5, 1+25+1+5+16);
+                    TotolContent = Read(Catch_1+ Catch_2+ Catch_3+ Catch_4+ Catch_5, 1+25+1+8+32);
+
+                    temV = "";
+
+                    foreach (var item in TotolContent) {
+                        temV += item + ", ";
+                    }
+
+                    Log("TotolContentLog", $"{temV}");
+
                     // 0-1
                     // 1-26
                     // 26-27
-                    // 27-32
-                    // 32-48
+                    // 27-35
+                    // 35-63
 
                     //判斷機台狀態
                     if (DateTime.Now >= _nextStatus)
@@ -438,10 +451,15 @@ namespace EagleControl_Native2_CuFe
                             if (_analyseDataIsAlreadyWrite == false)
                             {
 
-                                short[] _AnalyseData = new short[5];
-                                Array.Copy(TotolContent, 27, _AnalyseData, 0, 5);
+                                short[] _AnalyseRowData = new short[8];
+
+                                Array.Copy(TotolContent, 27, _AnalyseRowData, 0, 8);
+
+                                float[] _AnalyseData = new float[] { _AnalyseRowData[0], _AnalyseRowData[1], Calculate32bit(_AnalyseRowData[2], _AnalyseRowData[3]), Calculate32bit(_AnalyseRowData[4], _AnalyseRowData[5]), Calculate32bit(_AnalyseRowData[6], _AnalyseRowData[7]) };
 
                                 string result = tocsv.WriteAnalyseData(_AnalyseData);
+
+
 
                                 MonitorShow(3, $"槽位:{_AnalyseData[0]} ; 成分:{_AnalyseData[1]} ; 結果:{_AnalyseData[2]} ; 濃度:{_AnalyseData[3]} ; 空白:{_AnalyseData[4]}");
 
@@ -473,17 +491,37 @@ namespace EagleControl_Native2_CuFe
                     if (DateTime.Now >= _nextCalibrationParameter)
                     {
 
-                        Array.Copy(TotolContent, 32, _nowCalibrationParameter, 0, 16);
+                        Array.Copy(TotolContent, 35, _nowCalibrationParameter, 0, 32);
 
-                        for (int i = 0; i < 16; i++)
+                        for (int i = 0; i < 32; i++)
                         {
 
                             if (_nowCalibrationParameter[i] != _calibrationParameter[i])
                             {
 
-                                string result = tocsv.WriteCalibrationParameter(CalibrationParameterCsvPath, _nowCalibrationParameter);
+                                float[] _nowCalibrationParameterValue = new float[] {
 
-                                _calibrationParameter = _nowCalibrationParameter;
+                                        Calculate32bit(_nowCalibrationParameter[0], _nowCalibrationParameter[1]),
+                                        Calculate32bit(_nowCalibrationParameter[2], _nowCalibrationParameter[3]),
+                                        Calculate32bit(_nowCalibrationParameter[4], _nowCalibrationParameter[5]),
+                                        Calculate32bit(_nowCalibrationParameter[6], _nowCalibrationParameter[7]),
+                                        Calculate32bit(_nowCalibrationParameter[8], _nowCalibrationParameter[9]),
+                                        Calculate32bit(_nowCalibrationParameter[10], _nowCalibrationParameter[11]),
+                                        Calculate32bit(_nowCalibrationParameter[12], _nowCalibrationParameter[13]),
+                                        Calculate32bit(_nowCalibrationParameter[14], _nowCalibrationParameter[15]),
+                                        Calculate32bit(_nowCalibrationParameter[16], _nowCalibrationParameter[17]),
+                                        Calculate32bit(_nowCalibrationParameter[18], _nowCalibrationParameter[19]),
+                                        Calculate32bit(_nowCalibrationParameter[20], _nowCalibrationParameter[21]),
+                                        Calculate32bit(_nowCalibrationParameter[22], _nowCalibrationParameter[23]),
+                                        Calculate32bit(_nowCalibrationParameter[24], _nowCalibrationParameter[25]),
+                                        Calculate32bit(_nowCalibrationParameter[26], _nowCalibrationParameter[27]),
+                                        Calculate32bit(_nowCalibrationParameter[28], _nowCalibrationParameter[29]),
+                                        Calculate32bit(_nowCalibrationParameter[30], _nowCalibrationParameter[31])
+                                    };
+
+                                string result = tocsv.WriteCalibrationParameter(CalibrationParameterCsvPath, _nowCalibrationParameterValue);
+
+                                _calibrationParameter = (short[])_nowCalibrationParameter.Clone();
 
                                 MonitorShow(5, "校正參數更新");
 
@@ -515,6 +553,8 @@ namespace EagleControl_Native2_CuFe
 
                         if (m8 == NextHeartBeat)
                         {
+                            HeartBeatDownCount = 0;
+
                             NextHeartBeat = !m8;
 
                             System.Windows.Application.Current.Dispatcher.Invoke(() =>
@@ -530,21 +570,36 @@ namespace EagleControl_Native2_CuFe
                                     HeartBeatBtn1.Background = Brushes.Green;
                                     HeartBeatBtn2.Background = Brushes.Black;
                                 }
+
+                                else if (HeartBeatBtn1.Background == Brushes.Red && HeartBeatBtn2.Background == Brushes.Red) {
+
+                                    HeartBeatBtn1.Background = Brushes.Green;
+                                    HeartBeatBtn2.Background = Brushes.Black;
+                                }
                             });
                         }
 
                         else
                         {
-                            MonitorShow(6, "心跳交握出現異常!!");
+                            HeartBeatDownCount++;
 
-                            System.Windows.Application.Current.Dispatcher.Invoke(() =>
+                            Log("HeartBeatLog", $"HeartBeatDownCount計數值 : {HeartBeatDownCount}/10");
+
+                            if (HeartBeatDownCount > 10)
                             {
-                                HeartBeatBtn1.Background = Brushes.Red;
-                                HeartBeatBtn2.Background = Brushes.Red;
-                            });
+                                HeartBeatDownCount = 0;
+
+                                MonitorShow(6, "心跳交握出現異常!!");
+
+                                System.Windows.Application.Current.Dispatcher.Invoke(() =>
+                                {
+                                    HeartBeatBtn1.Background = Brushes.Red;
+                                    HeartBeatBtn2.Background = Brushes.Red;
+                                });
+                            }
                         }
 
-                        _nextHeartbeat = DateTime.Now.AddSeconds(3);
+                        _nextHeartbeat = DateTime.Now.AddSeconds(1.25);
                     }
 
                 }
@@ -751,6 +806,29 @@ namespace EagleControl_Native2_CuFe
             }
 
             return bitValue;
+        }
+
+        public float Calculate32bit(short value1, short value2)
+        {
+            float value = -0.1f;
+
+            try
+            {
+                byte[] bytes = new byte[4];
+                Buffer.BlockCopy(new short[] { value1, value2 }, 0, bytes, 0, 4);
+
+                value = BitConverter.ToSingle(bytes, 0);
+
+            }
+
+            catch (Exception ex)
+            {
+                MonitorShow(6, $"{ex.Message}\n{ex.StackTrace}");
+
+                Log("ExceptionLog", $"{ex.Message}\n{ex.StackTrace}");
+            }
+
+            return value;
         }
 
 

@@ -375,7 +375,7 @@ namespace EagleControl_Native2_CuFe
             }
         }
 
-        public String WriteAnalyseData(short[] _AnalyseData)
+        public String WriteAnalyseData(float[] _AnalyseData)
         {
 
             string result = "0";
@@ -498,7 +498,7 @@ namespace EagleControl_Native2_CuFe
             }
         }
 
-        public String WriteCalibrationParameter(string Path, short[] _AnalyseData)
+        public String WriteCalibrationParameter(string Path, float[] _AnalyseData)
         {
 
             string result = "0";

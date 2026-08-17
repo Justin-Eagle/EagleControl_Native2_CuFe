@@ -1,0 +1,6 @@
+[2026/08/17 18:24:33] _onList write : 0/8 ; _backToOffList write : 0/0
+[2026/08/17 18:24:39] _onList write : 8/8 ; _backToOffList write : 0/0
+[2026/08/17 18:24:44] _onList write : 8/8 ; _backToOffList write : 0/0
+[2026/08/17 18:24:49] _onList write : 8/8 ; _backToOffList write : 0/0
+[2026/08/17 18:24:54] _onList write : 8/8 ; _backToOffList write : 0/0
+[2026/08/17 18:24:59] _onList write : 8/8 ; _backToOffList write : 0/0

@@ -118,6 +118,8 @@ namespace EagleControl_Native2_CuFe
 
                 StationNum.IsEnabled = true;
 
+                _offIndex.Clear();
+
                 //plc = null;
             }
 
@@ -138,6 +140,7 @@ namespace EagleControl_Native2_CuFe
             DateTime _nextAlertData = DateTime.Now;
             DateTime _nextAnalyseData = DateTime.Now;
             DateTime _nextCalibrationParameter = DateTime.Now;
+            DateTime _nextWriteAlertData = DateTime.Now;
 
             bool _runnung;
             bool _waiting;
@@ -162,7 +165,11 @@ namespace EagleControl_Native2_CuFe
 
             bool _isAnalyseDataOutSpec = false;
 
-            int HeartBeatDownCount = 0;
+            int HeartBeatDownCount = 1;
+
+            int _onListAlreadyWriteCount = 0;
+
+            int _backToOffListAlreadyWriteCount = 0;
 
             short[] _rawData = new short[1];
 
@@ -474,53 +481,69 @@ namespace EagleControl_Native2_CuFe
 
                         _nextAlertData = DateTime.Now.AddSeconds(1);
                     }
-                    else if (_onList.Count != 0)
+
+                    if (_onList.Count != 0 && DateTime.Now >= _nextWriteAlertData)
                     {
+                        Log("AlertPeriodWriteCountLog", $"_onList write : {_onListAlreadyWriteCount}/{_onList.Count} ; _backToOffList write : {_backToOffListAlreadyWriteCount}/{_backToOffList.Count}");
 
-                        string result = tocsv.WriteErrorLog(ErrorLogCsvPath, _onList, _backToOffList);
+                        if (_onList.Count > _onListAlreadyWriteCount || _backToOffList.Count > _backToOffListAlreadyWriteCount) {
+
+                            string result = tocsv.WriteErrorLog(ErrorLogCsvPath, _onList.GetRange(_onListAlreadyWriteCount, _onList.Count - _onListAlreadyWriteCount), _backToOffList.GetRange(_backToOffListAlreadyWriteCount, _backToOffList.Count - _backToOffListAlreadyWriteCount));
+
+                           
+                            if (result == "1")
+                            {
+                                MonitorShow(6, "警報紀錄輸出至CSV (ErrorLogCsv) 完成");
+                            }
+
+                            else if (result == "0")
+                            {
+                                MonitorShow(6, "警報紀錄輸出至CSV (ErrorLogCsv) 失敗");
+                            }
 
 
-                        if (result == "1")
-                        {
-                            MonitorShow(6, "警報紀錄輸出至CSV (ErrorLogCsv) 完成");
+
+                            List<List<string>> TotalList = new List<List<string>>();
+
+                            TotalList.AddRange(_onList.GetRange(_onListAlreadyWriteCount, _onList.Count - _onListAlreadyWriteCount));
+                            TotalList.AddRange(_backToOffList.GetRange(_backToOffListAlreadyWriteCount, _backToOffList.Count - _backToOffListAlreadyWriteCount));
+
+                            TotalList = TotalList
+                                .OrderBy(x => DateTime.Parse(x[3]))
+                                .ToList();
+
+                            result = tocsv.WriteShowEventCsv(System.IO.Path.Combine(folderPath, "ShowData", "Event"), TotalList);
+
+                            if (result == "1")
+                            {
+                                MonitorShow(6, "警報紀錄輸出至 EventCsv 完成");
+                            }
+
+                            else if (result == "0")
+                            {
+                                MonitorShow(6, "警報紀錄輸出至 EventCsv 失敗");
+                            }
+
+
+
+                            _onListAlreadyWriteCount = _onList.Count;
+                            _backToOffListAlreadyWriteCount = _backToOffList.Count;
                         }
 
-                        else if (result == "0")
-                        {
-                            MonitorShow(6, "警報紀錄輸出至CSV (ErrorLogCsv) 失敗");
+                        if (!ScanAlertStatus) {
+
+                            _onList.Clear();
+                            _nowList.Clear();
+                            _backToOffList.Clear();
+                            Array.Clear(_nowAlertData, 0, _nowAlertData.Length);
+
+                            _offIndex.Clear();
+
+                            _onListAlreadyWriteCount = 0;
+                            _backToOffListAlreadyWriteCount = 0;
                         }
 
-
-                        List<List<string>> TotalList = new List<List<string>>();
-
-                        TotalList.AddRange(_onList);
-                        TotalList.AddRange(_backToOffList);
-
-                        TotalList = TotalList
-                            .OrderBy(x => DateTime.Parse(x[3]))
-                            .ToList();
-
-                        result = tocsv.WriteShowEventCsv(System.IO.Path.Combine(folderPath, "ShowData", "Event"), TotalList);
-
-
-                        if (result == "1")
-                        {
-                            MonitorShow(6, "警報紀錄輸出至Show CSV (EventCsv) 完成");
-                        }
-
-                        else if (result == "0")
-                        {
-                            MonitorShow(6, "警報紀錄輸出至Show CSV (EventCsv) 失敗");
-                        }
-
-
-                        _onList.Clear();
-                        _nowList.Clear();
-                        _backToOffList.Clear();
-                        Array.Clear(_nowAlertData, 0, _nowAlertData.Length);
-
-                        _offIndex.Clear();
-
+                        _nextWriteAlertData = DateTime.Now.AddSeconds(3);
                     }
 
 
@@ -553,10 +576,7 @@ namespace EagleControl_Native2_CuFe
                                     MonitorShow(6, "分析項目結束，濃度資訊輸出至CSV失敗");
                                 }
 
-
                                 _analyseDataIsAlreadyWrite = true;
-
-
 
                                 string[] toShowDataContent = new string[2];
                                 if (_AnalyseData[1] == 1)
@@ -751,7 +771,7 @@ namespace EagleControl_Native2_CuFe
 
                         if (m8 == NextHeartBeat)
                         {
-                            HeartBeatDownCount = 0;
+                            HeartBeatDownCount = 1;
 
                             NextHeartBeat = !m8;
 
@@ -779,13 +799,14 @@ namespace EagleControl_Native2_CuFe
 
                         else
                         {
-                            HeartBeatDownCount++;
-
+                           
                             Log("HeartBeatLog", $"HeartBeatDownCount計數值 : {HeartBeatDownCount}/10");
+
+                            HeartBeatDownCount++;
 
                             if (HeartBeatDownCount > 10)
                             {
-                                HeartBeatDownCount = 0;
+                                HeartBeatDownCount = 1;
 
                                 MonitorShow(6, "心跳交握出現異常!!");
 
@@ -794,7 +815,7 @@ namespace EagleControl_Native2_CuFe
                                     HeartBeatBtn1.Background = Brushes.Red;
                                     HeartBeatBtn2.Background = Brushes.Red;
                                 });
-                            }
+                            }         
                         }
 
                         _nextHeartbeat = DateTime.Now.AddSeconds(1.25);

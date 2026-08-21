@@ -176,7 +176,7 @@ namespace EagleControl_Native2_CuFe
 
                     csv.WriteField(currentCount);
                     csv.WriteField($"{DateTime.Now:yyyy/MM/dd}");
-                    csv.WriteField($"{DateTime.Now:HH:mm:ss.fff}");
+                    csv.WriteField($"{DateTime.Now:HH:mm:ss}");
                     csv.WriteField(Status);
 
                     //// 呼叫 NextRecord() 換行，表示一列結束
@@ -185,7 +185,7 @@ namespace EagleControl_Native2_CuFe
 
                 result = "1";
 
-                Log($"Success : (WriteStatus) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss.fff},{Status}");
+                Log($"Success : (WriteStatus) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss},{Status}");
 
                 
 
@@ -441,7 +441,7 @@ namespace EagleControl_Native2_CuFe
 
                     csv.WriteField(currentCount);
                     csv.WriteField($"{DateTime.Now:yyyy/MM/dd}");
-                    csv.WriteField($"{DateTime.Now:HH:mm:ss.fff}");
+                    csv.WriteField($"{DateTime.Now:HH:mm:ss}");
                     csv.WriteField(_AnalyseData[2]);
                     csv.WriteField(_AnalyseData[3]);
                     csv.WriteField(_AnalyseData[4]);
@@ -451,7 +451,7 @@ namespace EagleControl_Native2_CuFe
 
                 result = "1";
 
-                Log($"Success : (WriteAnalyseData) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss.fff},{_AnalyseData[2]},{_AnalyseData[3]},{_AnalyseData[4]}");
+                Log($"Success : (WriteAnalyseData) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss},{_AnalyseData[2]},{_AnalyseData[3]},{_AnalyseData[4]}");
 
                 //WriteShowDataCsv(System.IO.Path.Combine(folderPath,"ShowData","Data"),toShowDataContent);
 
@@ -554,7 +554,7 @@ namespace EagleControl_Native2_CuFe
 
                     csv.WriteField(currentCount);
                     csv.WriteField($"{DateTime.Now:yyyy/MM/dd}");
-                    csv.WriteField($"{DateTime.Now:HH:mm:ss.fff}");
+                    csv.WriteField($"{DateTime.Now:HH:mm:ss}");
 
                     
 
@@ -570,7 +570,7 @@ namespace EagleControl_Native2_CuFe
                 }
                 result = "1";
 
-                Log($"Success : (WriteCalibrationParameter) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss.fff}, {data}");
+                Log($"Success : (WriteCalibrationParameter) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss}, {data}");
             }
             catch (Exception ex)
             {
@@ -661,7 +661,7 @@ namespace EagleControl_Native2_CuFe
 
                     csv.WriteField(currentCount);
                     csv.WriteField($"{DateTime.Now:yyyy/MM/dd}");
-                    csv.WriteField($"{DateTime.Now:HH:mm:ss.fff}");
+                    csv.WriteField($"{DateTime.Now:HH:mm:ss}");
 
                     csv.WriteField("");
                     csv.WriteField("");
@@ -682,7 +682,7 @@ namespace EagleControl_Native2_CuFe
                 }
                 result = "1";
 
-                Log($"Success : (WriteShowDataCsv) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss.fff}, {data}");
+                Log($"Success : (WriteShowDataCsv) => {csvPath},{currentCount},{DateTime.Now:yyyy/MM/dd},{DateTime.Now:HH:mm:ss}, {data}");
             }
             catch (Exception ex)
             {
@@ -803,7 +803,7 @@ namespace EagleControl_Native2_CuFe
                         {
                             csv.WriteField("Alarm end");
                             csv.WriteField(TotalList[i][4]);
-                            csv.WriteField(TotalList[i][5]);
+                            csv.WriteField(TotalList[i][5]+"解除");
                             //csv.WriteField("F");
 
                             //Log($"Success : (WriteShowEventCsv) => {csvPath},{currentCount + i},{parts[0]},{parts[1]},{TotalList[i][4]},{TotalList[i][5]}, F");
@@ -863,8 +863,8 @@ namespace EagleControl_Native2_CuFe
                     
                     csv.WriteField(currentCount);
 
-                    csv.WriteField($"{DateTime.Now:yyyyMMdd}");
-                    csv.WriteField($"{DateTime.Now:HH:mm:ss.fff}");
+                    csv.WriteField($"{DateTime.Now:yyyy/MM/dd}");
+                    csv.WriteField($"{DateTime.Now:HH:mm:ss}");
 
                     csv.WriteField("");
                     csv.WriteField("");
@@ -879,7 +879,7 @@ namespace EagleControl_Native2_CuFe
 
                     }
                     
-                    Log($"Success : (WriteShowEventCsv) => {csvPath},{currentCount},{DateTime.Now:yyyyMMdd},{DateTime.Now:HH:mm:ss.fff},,,,,,{_content[0]},{_content[1]},{_content[2]}");
+                    Log($"Success : (WriteShowEventCsv) => {csvPath},{currentCount},{DateTime.Now:yyyyMMdd},{DateTime.Now:HH:mm:ss},,,,,,{_content[0]},{_content[1]},{_content[2]}");
 
                     csv.NextRecord();
 

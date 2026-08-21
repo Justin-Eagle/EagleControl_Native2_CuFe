@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EagleControl_Native2_CuFe"
         mc:Ignorable="d"
-        Title="EagleControl_Native2_CuFe v1.0.3" Height="600" Width="1200" Background="Black">
+        Title="EagleControl_Native2_CuFe v1.0.4" Height="600" Width="1200" Background="Black">
 
     <Window.Resources>
         <Style x:Key="CircularButtonStyle" TargetType="Button">

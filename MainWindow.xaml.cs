@@ -7,6 +7,7 @@ using System.Linq.Expressions;
 using System.Net;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
@@ -170,6 +171,10 @@ namespace EagleControl_Native2_CuFe
             int _onListAlreadyWriteCount = 0;
 
             int _backToOffListAlreadyWriteCount = 0;
+
+            int AlertAddCountCycle = 0;
+
+            bool IntoAlertAddCountCycle = false;
 
             short[] _rawData = new short[1];
 
@@ -431,9 +436,21 @@ namespace EagleControl_Native2_CuFe
                         _nextStatus = DateTime.Now.AddSeconds(1);
                     }
 
+                    //AlertAddCountCycle 等停機故障或是警告消除後再多抓5輪
+                    if (ScanAlertStatus || IntoAlertAddCountCycle)
+                    {               
+                        if (ScanAlertStatus)
+                        {
+                            AlertAddCountCycle = 0;
 
-                    if (ScanAlertStatus)
-                    {
+                            IntoAlertAddCountCycle = true;
+                        }
+                        else if (!ScanAlertStatus)
+                        {
+                            AlertAddCountCycle += 1;
+
+                            Log("AlertAddCountCycleLog", $"AlertAddCountCycle : {AlertAddCountCycle}");
+                        }
 
                         //一直抓數值最新狀態
                         _nowList.Clear();
@@ -530,7 +547,7 @@ namespace EagleControl_Native2_CuFe
                             _backToOffListAlreadyWriteCount = _backToOffList.Count;
                         }
 
-                        if (!ScanAlertStatus) {
+                        if (!ScanAlertStatus && !IntoAlertAddCountCycle) {
 
                             _onList.Clear();
                             _nowList.Clear();
@@ -541,6 +558,16 @@ namespace EagleControl_Native2_CuFe
 
                             _onListAlreadyWriteCount = 0;
                             _backToOffListAlreadyWriteCount = 0;
+
+                            
+                        }
+
+                        if (_backToOffListAlreadyWriteCount == _onListAlreadyWriteCount && IntoAlertAddCountCycle)
+                        {
+
+                            IntoAlertAddCountCycle = false;
+
+                            AlertAddCountCycle = 0;
                         }
 
                         _nextWriteAlertData = DateTime.Now.AddSeconds(3);
@@ -561,6 +588,10 @@ namespace EagleControl_Native2_CuFe
                                 Array.Copy(TotolContent, 27, _AnalyseRowData, 0, 8);
 
                                 float[] _AnalyseData = new float[] { _AnalyseRowData[0], _AnalyseRowData[1], Calculate32bit(_AnalyseRowData[2], _AnalyseRowData[3]), Calculate32bit(_AnalyseRowData[4], _AnalyseRowData[5]), Calculate32bit(_AnalyseRowData[6], _AnalyseRowData[7]) };
+
+                                _AnalyseData[2] = (float)Math.Round(_AnalyseData[2], 4);
+                                _AnalyseData[3] = (float)Math.Round(_AnalyseData[3], 4);
+                                _AnalyseData[4] = (float)Math.Round(_AnalyseData[4], 4);
 
                                 string result = tocsv.WriteAnalyseData(_AnalyseData);
 

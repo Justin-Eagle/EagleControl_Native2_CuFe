@@ -1,0 +1,541 @@
+[2026/08/21 12:00:42] Success (CreateExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv
+[2026/08/21 12:00:42] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,1,2026/08/21,12:00:42.207,分析中
+[2026/08/21 12:00:42] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv
+[2026/08/21 12:00:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,1,20260821,12:00:42.219,,,,,,Working,0,分析中
+[2026/08/21 12:00:42] Success (CreateErrorLogExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv
+[2026/08/21 12:00:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,1,2026/08/21,12:00:42.231,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:00:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,2,2026/08/21,12:00:42.233,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:00:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,3,2026/08/21,12:00:42.233,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:00:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,2,2026/08/21,12:00:42.231,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:00:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,3,2026/08/21,12:00:42.233,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:00:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,4,2026/08/21,12:00:42.233,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:01:05] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,2,2026/08/21,12:01:05.184,分析中
+[2026/08/21 12:01:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,5,20260821,12:01:05.192,,,,,,Working,0,分析中
+[2026/08/21 12:01:05] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,4,2026/08/21,12:01:05.199,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:01:05] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,5,2026/08/21,12:01:05.199,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:01:05] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,6,2026/08/21,12:01:05.201,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:01:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,6,2026/08/21,12:01:05.199,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:01:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,7,2026/08/21,12:01:05.199,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:01:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,8,2026/08/21,12:01:05.201,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:12:28] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,3,2026/08/21,12:12:28.103,分析中
+[2026/08/21 12:12:28] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,9,20260821,12:12:28.110,,,,,,Working,0,分析中
+[2026/08/21 12:12:50] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,4,2026/08/21,12:12:50.634,停止中
+[2026/08/21 12:12:50] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,10,20260821,12:12:50.645,,,,,,Quit,100,停止中
+[2026/08/21 12:13:13] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,5,2026/08/21,12:13:13.353,停機故障
+[2026/08/21 12:13:13] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,7,2026/08/21,12:13:13.367,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:13:13] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,8,2026/08/21,12:13:13.369,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:13:13] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,9,2026/08/21,12:13:13.369,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:13:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,11,2026/08/21,12:13:13.367,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:13:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,12,2026/08/21,12:13:13.369,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:13:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,13,2026/08/21,12:13:13.369,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:14:47] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,6,2026/08/21,12:14:47.066,停機故障
+[2026/08/21 12:14:47] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,10,2026/08/21,12:14:47.078,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:14:47] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,11,2026/08/21,12:14:47.078,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:14:47] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,12,2026/08/21,12:14:47.082,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:14:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,14,2026/08/21,12:14:47.078,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:14:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,15,2026/08/21,12:14:47.078,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:14:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,16,2026/08/21,12:14:47.082,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:16:57] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,7,2026/08/21,12:16:57.641,停機故障
+[2026/08/21 12:16:57] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,13,2026/08/21,12:16:57.657,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:16:57] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,14,2026/08/21,12:16:57.659,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:16:57] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,15,2026/08/21,12:16:57.659,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:16:57] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,17,2026/08/21,12:16:57.657,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:16:57] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,18,2026/08/21,12:16:57.659,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:16:57] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,19,2026/08/21,12:16:57.659,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:17:20] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,8,2026/08/21,12:17:20.304,等待中
+[2026/08/21 12:17:20] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,20,20260821,12:17:20.312,,,,,,Standby,99,等待中
+[2026/08/21 12:22:12] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,9,2026/08/21,12:22:12.785,停機故障
+[2026/08/21 12:22:12] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,16,2026/08/21,12:22:12.792,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:22:12] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,17,2026/08/21,12:22:12.795,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:22:12] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,18,2026/08/21,12:22:12.796,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:22:12] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,21,2026/08/21,12:22:12.792,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:22:12] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,22,2026/08/21,12:22:12.795,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:22:12] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,23,2026/08/21,12:22:12.796,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:23:13] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,10,2026/08/21,12:23:13.100,停機故障
+[2026/08/21 12:23:13] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,19,2026/08/21,12:23:13.108,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:23:13] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,20,2026/08/21,12:23:13.108,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:23:13] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,21,2026/08/21,12:23:13.110,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:23:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,24,2026/08/21,12:23:13.108,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:23:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,25,2026/08/21,12:23:13.108,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:23:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,26,2026/08/21,12:23:13.110,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:23:38] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,11,2026/08/21,12:23:38.597,等待中
+[2026/08/21 12:23:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,27,20260821,12:23:38.619,,,,,,Standby,99,等待中
+[2026/08/21 12:39:42] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,12,2026/08/21,12:39:42.379,停機故障
+[2026/08/21 12:39:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,22,2026/08/21,12:39:42.399,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:39:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,23,2026/08/21,12:39:42.399,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:39:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,24,2026/08/21,12:39:42.399,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:39:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,28,2026/08/21,12:39:42.399,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:39:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,29,2026/08/21,12:39:42.399,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:39:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,30,2026/08/21,12:39:42.399,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:40:30] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,13,2026/08/21,12:40:30.790,等待中
+[2026/08/21 12:40:30] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,31,20260821,12:40:30.802,,,,,,Standby,99,等待中
+[2026/08/21 12:40:33] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,25,2026/08/21,12:40:30.804,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 12:40:33] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,26,2026/08/21,12:40:30.808,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 12:40:33] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,27,2026/08/21,12:40:30.809,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 12:40:33] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,32,2026/08/21,12:40:30.804,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:40:33] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,33,2026/08/21,12:40:30.808,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:40:33] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,34,2026/08/21,12:40:30.809,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:41:40] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,14,2026/08/21,12:41:40.001,停機故障
+[2026/08/21 12:41:40] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,28,2026/08/21,12:41:40.015,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:41:40] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,29,2026/08/21,12:41:40.017,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:41:40] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,30,2026/08/21,12:41:40.019,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:41:40] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,35,2026/08/21,12:41:40.015,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:41:40] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,36,2026/08/21,12:41:40.017,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:41:40] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,37,2026/08/21,12:41:40.019,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:44:16] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,15,2026/08/21,12:44:16.817,停機故障
+[2026/08/21 12:44:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,31,2026/08/21,12:44:16.823,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:44:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,32,2026/08/21,12:44:16.825,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:44:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,33,2026/08/21,12:44:16.825,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:44:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,38,2026/08/21,12:44:16.823,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:44:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,39,2026/08/21,12:44:16.825,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:44:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,40,2026/08/21,12:44:16.825,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:44:27] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,16,2026/08/21,12:44:27.431,等待中
+[2026/08/21 12:44:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,41,20260821,12:44:27.437,,,,,,Standby,99,等待中
+[2026/08/21 12:44:27] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,34,2026/08/21,12:44:27.439,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 12:44:27] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,35,2026/08/21,12:44:27.477,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 12:44:27] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,36,2026/08/21,12:44:27.479,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 12:44:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,42,2026/08/21,12:44:27.439,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:44:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,43,2026/08/21,12:44:27.477,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:44:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,44,2026/08/21,12:44:27.479,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:48:16] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,17,2026/08/21,12:48:16.887,停機故障
+[2026/08/21 12:48:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,37,2026/08/21,12:48:16.905,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:48:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,38,2026/08/21,12:48:16.907,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:48:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,39,2026/08/21,12:48:16.907,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:48:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,45,2026/08/21,12:48:16.905,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:48:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,46,2026/08/21,12:48:16.907,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:48:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,47,2026/08/21,12:48:16.907,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:48:25] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,18,2026/08/21,12:48:25.023,等待中
+[2026/08/21 12:48:25] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,48,20260821,12:48:25.047,,,,,,Standby,99,等待中
+[2026/08/21 12:48:27] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,40,2026/08/21,12:48:25.051,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 12:48:27] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,41,2026/08/21,12:48:25.053,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 12:48:27] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,42,2026/08/21,12:48:25.055,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 12:48:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,49,2026/08/21,12:48:25.051,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:48:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,50,2026/08/21,12:48:25.053,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:48:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,51,2026/08/21,12:48:25.055,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:52:39] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,19,2026/08/21,12:52:39.278,停機故障
+[2026/08/21 12:52:39] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,43,2026/08/21,12:52:39.291,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:52:39] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,44,2026/08/21,12:52:39.294,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:52:39] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,45,2026/08/21,12:52:39.296,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:52:39] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,52,2026/08/21,12:52:39.291,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:52:39] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,53,2026/08/21,12:52:39.294,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:52:39] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,54,2026/08/21,12:52:39.296,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:52:52] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,20,2026/08/21,12:52:52.469,等待中
+[2026/08/21 12:52:52] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,55,20260821,12:52:52.474,,,,,,Standby,99,等待中
+[2026/08/21 12:52:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,46,2026/08/21,12:52:52.476,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 12:52:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,47,2026/08/21,12:52:52.479,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 12:52:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,48,2026/08/21,12:52:52.481,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 12:52:52] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,56,2026/08/21,12:52:52.476,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:52:52] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,57,2026/08/21,12:52:52.479,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:52:52] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,58,2026/08/21,12:52:52.481,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:54:05] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,21,2026/08/21,12:54:05.224,停機故障
+[2026/08/21 12:54:05] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,49,2026/08/21,12:54:05.234,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 12:54:05] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,50,2026/08/21,12:54:05.236,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 12:54:05] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,51,2026/08/21,12:54:05.238,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 12:54:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,59,2026/08/21,12:54:05.234,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:54:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,60,2026/08/21,12:54:05.236,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:54:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,61,2026/08/21,12:54:05.238,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 12:54:10] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,22,2026/08/21,12:54:10.558,等待中
+[2026/08/21 12:54:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,62,20260821,12:54:10.569,,,,,,Standby,99,等待中
+[2026/08/21 12:54:10] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,52,2026/08/21,12:54:10.574,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 12:54:10] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,53,2026/08/21,12:54:10.575,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 12:54:10] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,54,2026/08/21,12:54:10.577,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 12:54:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,63,2026/08/21,12:54:10.574,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 12:54:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,64,2026/08/21,12:54:10.575,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 12:54:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,65,2026/08/21,12:54:10.577,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 15:51:24] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,23,2026/08/21,15:51:24.622,停機故障
+[2026/08/21 15:51:24] Success (CreateErrorLogExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv
+[2026/08/21 15:51:24] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,1,2026/08/21,15:51:24.642,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢解除, T
+[2026/08/21 15:51:24] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,2,2026/08/21,15:51:24.642,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢解除, T
+[2026/08/21 15:51:24] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,3,2026/08/21,15:51:24.642,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液解除, T
+[2026/08/21 15:51:24] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv
+[2026/08/21 15:51:24] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,1,2026/08/21,15:51:24.642,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢解除
+[2026/08/21 15:51:24] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,2,2026/08/21,15:51:24.642,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢解除
+[2026/08/21 15:51:24] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,3,2026/08/21,15:51:24.642,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液解除
+[2026/08/21 15:51:30] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,24,2026/08/21,15:51:30.401,等待中
+[2026/08/21 15:51:30] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,4,20260821,15:51:30.409,,,,,,Standby,99,等待中
+[2026/08/21 15:51:30] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,4,2026/08/21,15:51:30.412,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢解除, F
+[2026/08/21 15:51:30] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,5,2026/08/21,15:51:30.414,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢解除, F
+[2026/08/21 15:51:30] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,6,2026/08/21,15:51:30.416,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液解除, F
+[2026/08/21 15:51:30] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,5,2026/08/21,15:51:30.412,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢解除
+[2026/08/21 15:51:30] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,6,2026/08/21,15:51:30.414,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢解除
+[2026/08/21 15:51:30] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,7,2026/08/21,15:51:30.416,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液解除
+[2026/08/21 15:58:52] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,25,2026/08/21,15:58:52.833,停機故障
+[2026/08/21 15:58:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,7,2026/08/21,15:58:52.843,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 15:58:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,8,2026/08/21,15:58:52.843,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 15:58:52] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,9,2026/08/21,15:58:52.844,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 15:58:52] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,8,2026/08/21,15:58:52.843,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 15:58:52] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,9,2026/08/21,15:58:52.843,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 15:58:52] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,10,2026/08/21,15:58:52.844,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 15:59:04] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,26,2026/08/21,15:59:04.192,等待中
+[2026/08/21 15:59:04] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,11,20260821,15:59:04.209,,,,,,Standby,99,等待中
+[2026/08/21 15:59:06] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,10,2026/08/21,15:59:04.211,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 15:59:06] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,11,2026/08/21,15:59:04.214,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 15:59:06] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,12,2026/08/21,15:59:04.215,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 15:59:06] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,12,2026/08/21,15:59:04.211,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 15:59:06] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,13,2026/08/21,15:59:04.214,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 15:59:06] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,14,2026/08/21,15:59:04.215,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 15:59:43] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,27,2026/08/21,15:59:43.905,停機故障
+[2026/08/21 15:59:43] Success (CreateErrorLogExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv
+[2026/08/21 15:59:43] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,1,2026/08/21,15:59:43.905,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 15:59:43] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,2,2026/08/21,15:59:43.925,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 15:59:43] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,3,2026/08/21,15:59:43.925,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 15:59:43] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv
+[2026/08/21 15:59:43] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,1,2026/08/21,15:59:43.905,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 15:59:43] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,2,2026/08/21,15:59:43.925,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 15:59:43] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,3,2026/08/21,15:59:43.925,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 15:59:49] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,28,2026/08/21,15:59:49.943,停機故障
+[2026/08/21 16:00:02] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,29,2026/08/21,16:00:02.912,停機故障
+[2026/08/21 16:00:02] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,4,2026/08/21,16:00:02.931,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 16:00:02] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,5,2026/08/21,16:00:02.933,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 16:00:02] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,6,2026/08/21,16:00:02.933,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 16:00:02] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,4,2026/08/21,16:00:02.931,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 16:00:02] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,5,2026/08/21,16:00:02.933,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 16:00:02] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,6,2026/08/21,16:00:02.933,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 16:00:13] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,30,2026/08/21,16:00:13.505,等待中
+[2026/08/21 16:00:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,7,20260821,16:00:13.517,,,,,,Standby,99,等待中
+[2026/08/21 16:00:13] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,7,2026/08/21,16:00:13.519,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 16:00:13] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,8,2026/08/21,16:00:13.523,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 16:00:13] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,9,2026/08/21,16:00:13.532,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 16:00:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,8,2026/08/21,16:00:13.519,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 16:00:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,9,2026/08/21,16:00:13.523,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 16:00:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,10,2026/08/21,16:00:13.532,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 17:56:07] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,31,2026/08/21,17:56:07.574,停機故障
+[2026/08/21 17:56:07] Success (CreateErrorLogExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv
+[2026/08/21 17:56:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,1,2026/08/21,17:56:07.591,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 17:56:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,2,2026/08/21,17:56:07.591,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 17:56:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,3,2026/08/21,17:56:07.591,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 17:56:07] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv
+[2026/08/21 17:56:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,1,2026/08/21,17:56:07.591,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 17:56:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,2,2026/08/21,17:56:07.591,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 17:56:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,3,2026/08/21,17:56:07.591,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 17:58:42] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,32,2026/08/21,17:58:42.633,停機故障
+[2026/08/21 17:58:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,4,2026/08/21,17:58:42.651,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 17:58:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,5,2026/08/21,17:58:42.651,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 17:58:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,6,2026/08/21,17:58:42.653,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 17:58:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,4,2026/08/21,17:58:42.651,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 17:58:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,5,2026/08/21,17:58:42.651,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 17:58:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,6,2026/08/21,17:58:42.653,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 17:58:55] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,33,2026/08/21,17:58:55.100,等待中
+[2026/08/21 17:58:55] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,7,20260821,17:58:55.116,,,,,,Standby,99,等待中
+[2026/08/21 17:59:02] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,7,2026/08/21,17:59:02.717,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 17:59:02] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,8,2026/08/21,17:59:02.717,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:01:41] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,34,2026/08/21,18:01:41.351,停機故障
+[2026/08/21 18:01:41] Success (CreateErrorLogExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv
+[2026/08/21 18:01:41] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,1,2026/08/21,18:01:41.363,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 18:01:41] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,2,2026/08/21,18:01:41.365,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 18:01:41] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,3,2026/08/21,18:01:41.365,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 18:01:41] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv
+[2026/08/21 18:01:41] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,1,2026/08/21,18:01:41.363,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:01:41] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,2,2026/08/21,18:01:41.365,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:01:41] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,3,2026/08/21,18:01:41.365,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:01:51] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,35,2026/08/21,18:01:51.473,等待中
+[2026/08/21 18:01:51] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,4,20260821,18:01:51.483,,,,,,Standby,99,等待中
+[2026/08/21 18:02:01] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,4,2026/08/21,18:02:01.552,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 18:02:01] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,5,2026/08/21,18:02:01.552,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:02:06] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,5,2026/08/21,18:02:06.614,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 18:02:06] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,6,2026/08/21,18:02:06.614,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:03:12] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,6,2026/08/21,18:03:09.484,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 18:03:12] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,7,2026/08/21,18:03:09.484,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:08:39] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,36,2026/08/21,18:08:39.762,停機故障
+[2026/08/21 18:08:39] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,7,2026/08/21,18:08:39.776,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 18:08:39] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,8,2026/08/21,18:08:39.776,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 18:08:39] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,9,2026/08/21,18:08:39.778,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 18:08:39] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,8,2026/08/21,18:08:39.776,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:08:39] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,9,2026/08/21,18:08:39.776,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:08:39] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,10,2026/08/21,18:08:39.778,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:08:49] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,37,2026/08/21,18:08:49.795,等待中
+[2026/08/21 18:08:49] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,11,20260821,18:08:49.816,,,,,,Standby,99,等待中
+[2026/08/21 18:08:55] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,10,2026/08/21,18:08:55.018,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 18:08:55] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,12,2026/08/21,18:08:55.018,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:09:00] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,11,2026/08/21,18:09:00.086,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 18:09:00] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,13,2026/08/21,18:09:00.086,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:09:05] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,12,2026/08/21,18:09:05.108,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 18:09:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,14,2026/08/21,18:09:05.108,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:10:37] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,38,2026/08/21,18:10:37.461,等待中
+[2026/08/21 18:10:37] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,15,20260821,18:10:37.465,,,,,,Standby,99,等待中
+[2026/08/21 18:10:47] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,39,2026/08/21,18:10:47.334,停機故障
+[2026/08/21 18:10:47] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,13,2026/08/21,18:10:47.341,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 18:10:47] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,14,2026/08/21,18:10:47.345,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 18:10:47] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,15,2026/08/21,18:10:47.345,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 18:10:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,16,2026/08/21,18:10:47.341,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:10:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,17,2026/08/21,18:10:47.345,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:10:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,18,2026/08/21,18:10:47.345,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:11:02] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,16,2026/08/21,18:10:59.867,33,PLC1_Normal_Warning0.0—报警：纯水桶满溢, T
+[2026/08/21 18:11:02] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,19,2026/08/21,18:10:59.867,33,PLC1_Normal_Warning0.0—报警：纯水桶满溢
+[2026/08/21 18:11:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,17,2026/08/21,18:11:04.900,34,PLC1_Normal_Warning0.1—报警：部件X需更换, T
+[2026/08/21 18:11:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,20,2026/08/21,18:11:04.900,34,PLC1_Normal_Warning0.1—报警：部件X需更换
+[2026/08/21 18:11:17] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,18,2026/08/21,18:11:17.284,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, T
+[2026/08/21 18:11:17] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,21,2026/08/21,18:11:17.284,35,PLC1_Normal_Warning0.2—报警：分析仪需保养
+[2026/08/21 18:11:27] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,40,2026/08/21,18:11:27.209,分析中
+[2026/08/21 18:11:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,22,20260821,18:11:27.235,,,,,,Working,0,分析中
+[2026/08/21 18:11:37] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,19,2026/08/21,18:11:37.187,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 18:11:37] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,23,2026/08/21,18:11:37.187,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:11:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,20,2026/08/21,18:11:42.219,33,PLC1_Normal_Warning0.0—报警：纯水桶满溢, F
+[2026/08/21 18:11:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,24,2026/08/21,18:11:42.219,33,PLC1_Normal_Warning0.0—报警：纯水桶满溢
+[2026/08/21 18:12:32] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,21,2026/08/21,18:12:32.331,35,PLC1_Normal_Warning0.2—报警：分析仪需保养, F
+[2026/08/21 18:12:32] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,25,2026/08/21,18:12:32.331,35,PLC1_Normal_Warning0.2—报警：分析仪需保养
+[2026/08/21 18:12:37] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,22,2026/08/21,18:12:34.942,34,PLC1_Normal_Warning0.1—报警：部件X需更换, F
+[2026/08/21 18:12:37] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,26,2026/08/21,18:12:34.942,34,PLC1_Normal_Warning0.1—报警：部件X需更换
+[2026/08/21 18:12:57] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,23,2026/08/21,18:12:55.181,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 18:12:57] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,24,2026/08/21,18:12:57.756,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 18:12:57] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,27,2026/08/21,18:12:55.181,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:12:57] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,28,2026/08/21,18:12:57.756,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:14:46] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,41,2026/08/21,18:14:46.969,停機故障
+[2026/08/21 18:14:46] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,25,2026/08/21,18:14:46.975,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 18:14:46] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,26,2026/08/21,18:14:46.975,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 18:14:46] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,27,2026/08/21,18:14:46.977,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 18:14:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,29,2026/08/21,18:14:46.975,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:14:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,30,2026/08/21,18:14:46.975,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:14:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,31,2026/08/21,18:14:46.977,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:14:57] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,42,2026/08/21,18:14:57.017,等待中
+[2026/08/21 18:14:57] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,32,20260821,18:14:57.038,,,,,,Standby,99,等待中
+[2026/08/21 18:15:02] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,28,2026/08/21,18:15:02.043,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 18:15:02] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,33,2026/08/21,18:15:02.043,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:15:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,29,2026/08/21,18:15:04.576,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 18:15:07] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,30,2026/08/21,18:15:07.270,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 18:15:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,34,2026/08/21,18:15:04.576,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:15:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,35,2026/08/21,18:15:07.270,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:18:50] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,43,2026/08/21,18:18:50.308,停機故障
+[2026/08/21 18:18:50] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,31,2026/08/21,18:18:50.328,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 18:18:50] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,32,2026/08/21,18:18:50.330,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 18:18:50] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,33,2026/08/21,18:18:50.332,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 18:18:50] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,36,2026/08/21,18:18:50.328,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:18:50] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,37,2026/08/21,18:18:50.330,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:18:50] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,38,2026/08/21,18:18:50.332,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:19:00] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,44,2026/08/21,18:19:00.343,等待中
+[2026/08/21 18:19:00] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,39,20260821,18:19:00.375,,,,,,Standby,99,等待中
+[2026/08/21 18:19:05] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,34,2026/08/21,18:19:05.400,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 18:19:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,40,2026/08/21,18:19:05.400,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:19:10] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,35,2026/08/21,18:19:07.992,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 18:19:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,41,2026/08/21,18:19:07.992,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:19:15] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,36,2026/08/21,18:19:15.533,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 18:19:15] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,42,2026/08/21,18:19:15.533,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:19:38] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,45,2026/08/21,18:19:38.363,停機故障
+[2026/08/21 18:19:38] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,37,2026/08/21,18:19:38.368,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 18:19:38] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,38,2026/08/21,18:19:38.373,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 18:19:38] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,39,2026/08/21,18:19:38.375,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 18:19:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,43,2026/08/21,18:19:38.368,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:19:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,44,2026/08/21,18:19:38.373,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:19:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,45,2026/08/21,18:19:38.375,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:19:53] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,46,2026/08/21,18:19:53.708,分析中
+[2026/08/21 18:19:53] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,46,20260821,18:19:53.733,,,,,,Working,0,分析中
+[2026/08/21 18:20:23] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,47,2026/08/21,18:20:23.698,停機故障
+[2026/08/21 18:24:16] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,48,2026/08/21,18:24:16.571,停機故障
+[2026/08/21 18:24:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,40,2026/08/21,18:24:16.581,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 18:24:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,41,2026/08/21,18:24:16.583,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 18:24:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,42,2026/08/21,18:24:16.583,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 18:24:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,47,2026/08/21,18:24:16.581,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:24:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,48,2026/08/21,18:24:16.583,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:24:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,49,2026/08/21,18:24:16.583,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:24:34] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,49,2026/08/21,18:24:34.148,等待中
+[2026/08/21 18:24:34] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,50,20260821,18:24:34.173,,,,,,Standby,99,等待中
+[2026/08/21 18:24:36] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,43,2026/08/21,18:24:36.617,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 18:24:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,51,2026/08/21,18:24:36.617,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:24:41] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,44,2026/08/21,18:24:39.125,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 18:24:41] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,52,2026/08/21,18:24:39.125,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:24:46] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,45,2026/08/21,18:24:46.734,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 18:24:46] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,53,2026/08/21,18:24:46.734,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:25:06] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,50,2026/08/21,18:25:06.920,停機故障
+[2026/08/21 18:25:14] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,46,2026/08/21,18:25:14.556,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 18:25:14] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,54,2026/08/21,18:25:14.556,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:25:19] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,47,2026/08/21,18:25:17.080,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 18:25:19] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,48,2026/08/21,18:25:19.547,34,PLC1_Normal_Warning0.1—报警：部件X需更换, T
+[2026/08/21 18:25:19] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,55,2026/08/21,18:25:17.080,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:25:19] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,56,2026/08/21,18:25:19.547,34,PLC1_Normal_Warning0.1—报警：部件X需更换
+[2026/08/21 18:25:32] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,51,2026/08/21,18:25:32.006,分析中
+[2026/08/21 18:25:32] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,57,20260821,18:25:32.026,,,,,,Working,0,分析中
+[2026/08/21 18:25:49] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,49,2026/08/21,18:25:47.167,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 18:25:49] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,58,2026/08/21,18:25:47.167,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:25:54] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,50,2026/08/21,18:25:52.318,34,PLC1_Normal_Warning0.1—报警：部件X需更换, F
+[2026/08/21 18:25:54] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,59,2026/08/21,18:25:52.318,34,PLC1_Normal_Warning0.1—报警：部件X需更换
+[2026/08/21 18:26:04] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,51,2026/08/21,18:26:02.324,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 18:26:04] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,60,2026/08/21,18:26:02.324,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:27:10] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,52,2026/08/21,18:27:10.246,停機故障
+[2026/08/21 18:27:10] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,52,2026/08/21,18:27:10.261,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, T
+[2026/08/21 18:27:10] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,53,2026/08/21,18:27:10.261,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, T
+[2026/08/21 18:27:10] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,54,2026/08/21,18:27:10.265,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, T
+[2026/08/21 18:27:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,61,2026/08/21,18:27:10.261,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:27:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,62,2026/08/21,18:27:10.261,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 18:27:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,63,2026/08/21,18:27:10.265,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:27:20] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,55,2026/08/21,18:27:20.411,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢, F
+[2026/08/21 18:27:20] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,64,2026/08/21,18:27:20.411,1,PLC1_Normal_Fault0.0—停机报警：循环杯满溢
+[2026/08/21 18:27:35] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,56,2026/08/21,18:27:35.482,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液, F
+[2026/08/21 18:27:35] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,65,2026/08/21,18:27:35.482,3,PLC1_Normal_Fault0.2—停机报警：分析仪漏液
+[2026/08/21 18:27:43] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,53,2026/08/21,18:27:43.054,等待中
+[2026/08/21 18:27:43] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,66,20260821,18:27:43.074,,,,,,Standby,99,等待中
+[2026/08/21 18:28:00] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260821.csv,57,2026/08/21,18:27:58.325,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢, F
+[2026/08/21 18:28:00] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,67,2026/08/21,18:27:58.325,2,PLC1_Normal_Fault0.1—停机报警：反应杯满溢
+[2026/08/21 21:12:17] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,54,2026/08/21,21:12:17,等待中
+[2026/08/21 21:12:17] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv
+[2026/08/21 21:12:17] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,1,20260821,21:12:17,,,,,,Standby,99,等待中
+[2026/08/21 21:12:17] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv
+[2026/08/21 21:12:17] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,1,2026/08/21,21:12:17,5.209562E+09,5.209562E+09,0
+[2026/08/21 21:12:17] Success (CreateWriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260821.csv
+[2026/08/21 21:12:17] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:12:17] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,2,20260821,21:12:17,,,,,,Error reset,,
+[2026/08/21 21:12:44] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,55,2026/08/21,21:12:44,等待中
+[2026/08/21 21:12:44] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,3,20260821,21:12:44,,,,,,Standby,99,等待中
+[2026/08/21 21:12:44] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,2,2026/08/21,21:12:44,25.66387,5.209562E+09,0
+[2026/08/21 21:12:44] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:12:44] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,4,20260821,21:12:44,,,,,,Error reset,,
+[2026/08/21 21:22:01] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,56,2026/08/21,21:22:01,等待中
+[2026/08/21 21:22:01] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,5,20260821,21:22:01,,,,,,Standby,99,等待中
+[2026/08/21 21:22:01] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,3,2026/08/21,21:22:01,25.6639,5.209562E+09,0
+[2026/08/21 21:22:01] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:22:01] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,6,20260821,21:22:01,,,,,,Error reset,,
+[2026/08/21 21:25:13] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,57,2026/08/21,21:25:13,等待中
+[2026/08/21 21:25:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,7,20260821,21:25:13,,,,,,Standby,99,等待中
+[2026/08/21 21:25:13] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,4,2026/08/21,21:25:13,25.6639,37.8143,0
+[2026/08/21 21:25:13] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:25:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,8,20260821,21:25:13,,,,,,Error reset,,
+[2026/08/21 21:25:41] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,58,2026/08/21,21:25:41,等待中
+[2026/08/21 21:25:41] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,9,20260821,21:25:41,,,,,,Standby,99,等待中
+[2026/08/21 21:25:41] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,5,2026/08/21,21:25:41,25.6639,37.8143,0
+[2026/08/21 21:25:41] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:25:41] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,10,20260821,21:25:41,,,,,,Error reset,,
+[2026/08/21 21:26:20] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,59,2026/08/21,21:26:20,等待中
+[2026/08/21 21:26:20] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,11,20260821,21:26:20,,,,,,Standby,99,等待中
+[2026/08/21 21:26:20] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,6,2026/08/21,21:26:20,25.6639,37.8143,0
+[2026/08/21 21:26:20] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:26:20] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,12,20260821,21:26:20,,,,,,Error reset,,
+[2026/08/21 21:27:05] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,60,2026/08/21,21:27:05,等待中
+[2026/08/21 21:27:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,13,20260821,21:27:05,,,,,,Standby,99,等待中
+[2026/08/21 21:27:05] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,7,2026/08/21,21:27:05,25.6639,37.8143,0
+[2026/08/21 21:27:05] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:27:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,14,20260821,21:27:05,,,,,,Error reset,,
+[2026/08/21 21:29:38] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,61,2026/08/21,21:29:38,等待中
+[2026/08/21 21:29:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,15,20260821,21:29:38,,,,,,Standby,99,等待中
+[2026/08/21 21:29:38] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,8,2026/08/21,21:29:38,25.6639,37.8143,0
+[2026/08/21 21:29:38] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:29:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,16,20260821,21:29:38,,,,,,Error reset,,
+[2026/08/21 21:30:43] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,62,2026/08/21,21:30:43,等待中
+[2026/08/21 21:30:43] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,17,20260821,21:30:43,,,,,,Standby,99,等待中
+[2026/08/21 21:30:43] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,9,2026/08/21,21:30:43,25.6639,37.8143,0
+[2026/08/21 21:30:43] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:30:43] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,18,20260821,21:30:43,,,,,,Error reset,,
+[2026/08/21 21:33:01] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,63,2026/08/21,21:33:01,等待中
+[2026/08/21 21:33:01] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,19,20260821,21:33:01,,,,,,Standby,99,等待中
+[2026/08/21 21:33:01] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,10,2026/08/21,21:33:01,25.6639,37.8143,0
+[2026/08/21 21:33:01] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:33:01] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,20,20260821,21:33:01,,,,,,Error reset,,
+[2026/08/21 21:34:16] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,64,2026/08/21,21:34:16,等待中
+[2026/08/21 21:34:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,21,20260821,21:34:16,,,,,,Standby,99,等待中
+[2026/08/21 21:34:16] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,11,2026/08/21,21:34:16,25.6639,37.8143,0
+[2026/08/21 21:34:52] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,65,2026/08/21,21:34:52,等待中
+[2026/08/21 21:34:52] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,22,20260821,21:34:52,,,,,,Standby,99,等待中
+[2026/08/21 21:34:52] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,12,2026/08/21,21:34:52,25.6639,37.8143,0
+[2026/08/21 21:34:52] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/21 21:34:52] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,23,20260821,21:34:52,,,,,,Error reset,,
+[2026/08/21 21:35:40] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,66,2026/08/21,21:35:40,等待中
+[2026/08/21 21:35:40] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,24,20260821,21:35:40,,,,,,Standby,99,等待中
+[2026/08/21 21:35:40] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,13,2026/08/21,21:35:40,25.6639,37.8143,0
+[2026/08/21 21:36:51] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,67,2026/08/21,21:36:51,等待中
+[2026/08/21 21:36:51] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,25,20260821,21:36:51,,,,,,Standby,99,等待中
+[2026/08/21 21:37:13] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,14,2026/08/21,21:37:13,25.6639,37.8143,0
+[2026/08/21 21:38:17] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,68,2026/08/21,21:38:17,等待中
+[2026/08/21 21:38:17] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,26,20260821,21:38:17,,,,,,Standby,99,等待中
+[2026/08/21 21:38:19] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,15,2026/08/21,21:38:19,25.6639,37.8143,0
+[2026/08/21 21:40:04] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,69,2026/08/21,21:40:04,等待中
+[2026/08/21 21:40:04] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,27,20260821,21:40:04,,,,,,Standby,99,等待中
+[2026/08/21 21:40:05] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,16,2026/08/21,21:40:05,25.66387,37.81426,0
+[2026/08/21 21:40:44] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,70,2026/08/21,21:40:44,等待中
+[2026/08/21 21:40:44] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,28,20260821,21:40:44,,,,,,Standby,99,等待中
+[2026/08/21 21:40:48] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,17,2026/08/21,21:40:48,25.66387,37.81426,0
+[2026/08/21 21:41:18] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,71,2026/08/21,21:41:18,等待中
+[2026/08/21 21:41:18] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,29,20260821,21:41:18,,,,,,Standby,99,等待中
+[2026/08/21 21:41:20] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260821.csv,18,2026/08/21,21:41:20,25.66387,37.81426,0
+[2026/08/21 21:43:10] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,72,2026/08/21,21:43:10,分析中
+[2026/08/21 21:43:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,30,20260821,21:43:10,,,,,,Working,0,分析中
+[2026/08/21 21:43:12] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260821.csv
+[2026/08/21 21:43:12] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260821.csv,1,2026/08/21,21:43:12,0,0,0
+[2026/08/21 21:44:12] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,73,2026/08/21,21:44:12,分析中
+[2026/08/21 21:44:12] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,31,20260821,21:44:12,,,,,,Working,0,分析中
+[2026/08/21 21:44:12] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260821.csv,2,2026/08/21,21:44:12,0,0,0
+[2026/08/21 21:44:12] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260821.csv,2,2026/08/21,21:44:12, ,0,
+[2026/08/21 21:44:12] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,32,20260821,21:44:12,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/08/21 21:44:36] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,74,2026/08/21,21:44:36,分析中
+[2026/08/21 21:44:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,33,20260821,21:44:36,,,,,,Working,0,分析中
+[2026/08/21 21:44:36] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260821.csv,3,2026/08/21,21:44:36,12.5568,0,0
+[2026/08/21 21:44:36] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260821.csv,2,2026/08/21,21:44:36, ,0,
+[2026/08/21 21:44:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,34,20260821,21:44:36,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/08/21 21:46:10] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,75,2026/08/21,21:46:10,分析中
+[2026/08/21 21:46:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,35,20260821,21:46:10,,,,,,Working,0,分析中
+[2026/08/21 21:46:10] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260821.csv,4,2026/08/21,21:46:10,12.5568,0,0
+[2026/08/21 21:46:10] Success (CreateWriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260821.csv
+[2026/08/21 21:46:10] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260821.csv,1,2026/08/21,21:46:10, ,0,
+[2026/08/21 21:46:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,36,20260821,21:46:10,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/08/21 21:46:32] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,76,2026/08/21,21:46:32,分析中
+[2026/08/21 21:46:32] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,37,20260821,21:46:32,,,,,,Working,0,分析中
+[2026/08/21 21:46:32] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260821.csv
+[2026/08/21 21:46:32] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260821.csv,1,2026/08/21,21:46:32,12.5568,0,0
+[2026/08/21 21:46:32] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260821.csv,2,2026/08/21,21:46:32, ,,0
+[2026/08/21 21:46:32] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,38,20260821,21:46:32,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/08/21 21:47:47] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,77,2026/08/21,21:47:47,分析中
+[2026/08/21 21:47:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,39,20260821,21:47:47,,,,,,Working,0,分析中
+[2026/08/21 21:47:47] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260821.csv,2,2026/08/21,21:47:47,12.5568,39.159,0
+[2026/08/21 21:47:47] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260821.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 652 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 652
+
+[2026/08/21 21:47:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,40,20260821,21:47:47,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/08/21 21:48:24] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,78,2026/08/21,21:48:24,分析中
+[2026/08/21 21:48:24] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,41,20260821,21:48:24,,,,,,Working,0,分析中
+[2026/08/21 21:48:24] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260821.csv,3,2026/08/21,21:48:24,12.5568,39.159,0
+[2026/08/21 21:48:24] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260821.csv,3,2026/08/21,21:48:24, ,,39.159
+[2026/08/21 21:48:24] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,42,20260821,21:48:24,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/08/21 21:50:34] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,79,2026/08/21,21:50:34,分析中
+[2026/08/21 21:50:34] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,43,20260821,21:50:34,,,,,,Working,0,分析中
+[2026/08/21 21:50:34] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260821.csv,4,2026/08/21,21:50:34,12.5568,3.1346,0
+[2026/08/21 21:50:34] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260821.csv,4,2026/08/21,21:50:34, ,,3.1346
+[2026/08/21 21:50:34] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,44,20260821,21:50:34,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/08/21 21:52:44] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260821.csv,80,2026/08/21,21:52:44,分析中
+[2026/08/21 21:52:44] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv
+[2026/08/21 21:52:44] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,1,20260821,21:52:44,,,,,,Working,0,分析中
+[2026/08/21 21:52:44] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260821.csv,5,2026/08/21,21:52:44,12.5568,3.1346,0
+[2026/08/21 21:52:44] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260821.csv,5,2026/08/21,21:52:44, ,,3.1346
+[2026/08/21 21:52:44] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260821.csv,2,20260821,21:52:44,,,,,,Error reset,105,Fe3+監控濃度在規格內

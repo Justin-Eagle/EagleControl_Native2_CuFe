@@ -886,7 +886,7 @@ namespace EagleControl_Native2_CuFe
                             row.Add(_deviceList[i]);
                             row.Add(_checkBitPosition[j].ToString());
                             row.Add("ON");
-                            row.Add(DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.fff"));
+                            row.Add(DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"));
                             row.Add("0");
 
                             //_onList.Add(row);
@@ -935,7 +935,7 @@ namespace EagleControl_Native2_CuFe
                                 row.Add(_onList[i][0]);
                                 row.Add(_onList[i][1].ToString());
                                 row.Add("OFF");
-                                row.Add(DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.fff"));
+                                row.Add(DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"));
                                 
                                 _backToOffList.Add(new List<string>(row));
                                 row.Clear();

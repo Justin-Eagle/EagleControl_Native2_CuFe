@@ -1,0 +1,4 @@
+[2026/08/25 22:10:01] Success (CreateExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260825.csv
+[2026/08/25 22:10:01] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260825.csv,1,2026/08/25,22:10:01,停止中
+[2026/08/25 22:10:01] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260825.csv
+[2026/08/25 22:10:01] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260825.csv,1,20260825,22:10:01,,,,,,Quit,100,停止中

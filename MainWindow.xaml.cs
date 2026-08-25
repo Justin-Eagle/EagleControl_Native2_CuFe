@@ -595,7 +595,18 @@ namespace EagleControl_Native2_CuFe
 
                                 string result = tocsv.WriteAnalyseData(_AnalyseData);
 
-                                MonitorShow(3, $"槽位:{_AnalyseData[0]} ; 成分:{_AnalyseData[1]} ; 結果:{_AnalyseData[2]} ; 濃度:{_AnalyseData[3]} ; 空白:{_AnalyseData[4]}");
+                                if (_AnalyseData[1] == 1) {
+
+                                    MonitorShow(3, $"槽位:{_AnalyseData[0]} ; 成分:Cu2+ ; 結果:{_AnalyseData[2]} ; 濃度:{_AnalyseData[3]} ; 空白:{_AnalyseData[4]}");
+                                }
+
+                                else if (_AnalyseData[1] == 4)
+                                {
+
+                                    MonitorShow(3, $"槽位:{_AnalyseData[0]} ; 成分:Fe3+ ; 結果:{_AnalyseData[2]} ; 濃度:{_AnalyseData[3]} ; 空白:{_AnalyseData[4]}");
+                                }
+
+
 
                                 if (result == "1")
                                 {

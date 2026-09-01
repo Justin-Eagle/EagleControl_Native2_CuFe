@@ -802,7 +802,7 @@ namespace EagleControl_Native2_CuFe
                         else if (TotalList[i][2] == "OFF")
                         {
                             csv.WriteField("Alarm end");
-                            csv.WriteField(TotalList[i][4]);
+                            csv.WriteField(TotalList[i][4]+"A");
                             csv.WriteField(TotalList[i][5]+"解除");
                             //csv.WriteField("F");
 

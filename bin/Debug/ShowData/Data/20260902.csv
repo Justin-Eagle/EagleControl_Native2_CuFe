@@ -1,0 +1,4 @@
+﻿Index,日期(Date),時間(Time),料號(PartNo),批號(LotID),JobNo (or Quarter information),工號(OPID),生產程式(Recipe),設備狀態,Cu,Fe
+1,2026/09/02,00:00:01,,,,,,Processing,72.362,
+2,2026/09/02,00:00:39,,,,,,Processing,72.362,
+3,2026/09/02,00:00:57,,,,,,Processing,72.362,

@@ -1,0 +1,243 @@
+[2026/08/31 12:48:16] Success (CreateExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv
+[2026/08/31 12:48:16] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,1,2026/08/31,12:48:16,分析中
+[2026/08/31 12:48:17] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv
+[2026/08/31 12:48:17] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,1,20260831,12:48:17,,,,,,Working,0,分析中
+[2026/08/31 12:48:17] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260831.csv
+[2026/08/31 12:48:17] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260831.csv,1,2026/08/31,12:48:17,25.3611,72.362,0
+[2026/08/31 12:48:17] Success (CreateWriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv
+[2026/08/31 12:48:17] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/31 12:48:17] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,2,20260831,12:48:17,,,,,,Error reset,,
+[2026/08/31 12:50:28] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,2,2026/08/31,12:50:28,分析中
+[2026/08/31 12:50:28] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,3,20260831,12:50:28,,,,,,Working,0,分析中
+[2026/08/31 12:50:28] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260831.csv,2,2026/08/31,12:50:28,25.3611,72.362,0
+[2026/08/31 12:50:28] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/31 12:50:28] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,4,20260831,12:50:28,,,,,,Error reset,,
+[2026/08/31 12:51:34] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,3,2026/08/31,12:51:34,分析中
+[2026/08/31 12:51:34] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,5,20260831,12:51:34,,,,,,Working,0,分析中
+[2026/08/31 12:51:34] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260831.csv,3,2026/08/31,12:51:34,25.3611,72.362,0
+[2026/08/31 12:51:34] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/31 12:51:34] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,6,20260831,12:51:34,,,,,,Error reset,,
+[2026/08/31 12:56:58] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,4,2026/08/31,12:56:58,分析中
+[2026/08/31 12:56:58] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,7,20260831,12:56:58,,,,,,Working,0,分析中
+[2026/08/31 12:56:58] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260831.csv,4,2026/08/31,12:56:58,25.3611,72.362,0
+[2026/08/31 12:56:58] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/31 12:56:58] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,8,20260831,12:56:58,,,,,,Error reset,,
+[2026/08/31 13:01:01] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,5,2026/08/31,13:01:01,分析中
+[2026/08/31 13:01:01] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,9,20260831,13:01:01,,,,,,Working,0,分析中
+[2026/08/31 13:01:01] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A\20260831.csv,5,2026/08/31,13:01:01,25.3611,72.362,0
+[2026/08/31 13:01:01] System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678 
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowDataCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 678
+
+[2026/08/31 13:01:01] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,10,20260831,13:01:01,,,,,,Error reset,,
+[2026/08/31 13:02:58] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,6,2026/08/31,13:02:58,分析中
+[2026/08/31 13:02:58] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,11,20260831,13:02:58,,,,,,Working,0,分析中
+[2026/08/31 13:02:58] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv
+[2026/08/31 13:02:58] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,1,2026/08/31,13:02:58,25.3611,72.362,0
+[2026/08/31 13:02:58] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,2,2026/08/31,13:02:58, ,72.362,
+[2026/08/31 13:02:58] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,12,20260831,13:02:58,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/08/31 13:03:32] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,7,2026/08/31,13:03:32,警告
+[2026/08/31 13:03:32] Success (CreateErrorLogExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv
+[2026/08/31 13:03:32] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,1,2026/08/31,13:03:32,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:03:32] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,13,2026/08/31,13:03:32,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:03:40] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,14,20260831,13:03:40,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:03:47] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,2,2026/08/31,13:03:47,25.3611,72.362,0
+[2026/08/31 13:03:47] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,2,2026/08/31,13:03:47, ,72.362,
+[2026/08/31 13:04:24] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,15,20260831,13:04:24,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:04:30] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,3,2026/08/31,13:04:30,25.3611,72.362,0
+[2026/08/31 13:04:30] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,3,2026/08/31,13:04:30, ,72.362,
+[2026/08/31 13:04:56] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,16,20260831,13:04:56,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:05:01] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,4,2026/08/31,13:05:01,25.3611,72.362,0
+[2026/08/31 13:05:01] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,4,2026/08/31,13:05:01, ,72.362,
+[2026/08/31 13:06:38] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,8,2026/08/31,13:06:38,分析中
+[2026/08/31 13:06:38] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv
+[2026/08/31 13:06:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,1,20260831,13:06:38,,,,,,Working,0,分析中
+[2026/08/31 13:06:38] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,5,2026/08/31,13:06:38,25.3611,72.362,0
+[2026/08/31 13:06:38] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,5,2026/08/31,13:06:38, ,72.362,
+[2026/08/31 13:06:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,2,20260831,13:06:38,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/08/31 13:06:56] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,3,20260831,13:06:56,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:07:02] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,6,2026/08/31,13:07:02,25.3611,72.362,0
+[2026/08/31 13:07:02] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,6,2026/08/31,13:07:02, ,72.362,
+[2026/08/31 13:07:02] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,4,20260831,13:07:02,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/08/31 13:07:25] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,9,2026/08/31,13:07:25,警告
+[2026/08/31 13:07:25] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,2,2026/08/31,13:07:25,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:07:25] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,5,2026/08/31,13:07:25,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:07:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,6,20260831,13:07:36,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:07:41] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,7,2026/08/31,13:07:41,25.3611,72.362,0
+[2026/08/31 13:07:41] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,7,2026/08/31,13:07:41, ,72.362,
+[2026/08/31 13:08:02] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,3,2026/08/31,13:08:02,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, F
+[2026/08/31 13:08:02] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,7,2026/08/31,13:08:02,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:08:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,8,20260831,13:08:10,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:08:15] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,8,2026/08/31,13:08:15,25.3611,72.362,0
+[2026/08/31 13:08:15] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,8,2026/08/31,13:08:15, ,72.362,
+[2026/08/31 13:08:15] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,9,20260831,13:08:15,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/08/31 13:09:53] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/08/31 13:10:01] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,9,2026/08/31,13:10:01,25.3611,72.362,0
+[2026/08/31 13:10:01] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,9,2026/08/31,13:10:01, ,72.362,
+[2026/08/31 13:10:01] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/08/31 13:10:30] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,10,20260831,13:10:30,,,,,,Analyze start,104,Fe3+检测开始
+[2026/08/31 13:10:35] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260831.csv
+[2026/08/31 13:10:35] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260831.csv,1,2026/08/31,13:10:35,25.3611,72.362,0
+[2026/08/31 13:10:35] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,10,2026/08/31,13:10:35, ,,72.362
+[2026/08/31 13:10:35] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,11,20260831,13:10:35,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/08/31 13:11:14] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,4,2026/08/31,13:11:14,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:11:14] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,12,2026/08/31,13:11:14,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:11:24] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,10,2026/08/31,13:11:24,停機故障
+[2026/08/31 13:11:45] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,11,2026/08/31,13:11:45,分析中
+[2026/08/31 13:11:45] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,13,20260831,13:11:45,,,,,,Working,0,分析中
+[2026/08/31 13:11:51] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,12,2026/08/31,13:11:51,警告
+[2026/08/31 13:11:59] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,14,20260831,13:11:59,,,,,,Analyze start,104,Fe3+检测开始
+[2026/08/31 13:12:04] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260831.csv,2,2026/08/31,13:12:04,25.3611,72.362,0
+[2026/08/31 13:12:04] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,11,2026/08/31,13:12:04, ,,72.362
+[2026/08/31 13:12:35] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,15,20260831,13:12:35,,,,,,Analyze start,104,Fe3+检测开始
+[2026/08/31 13:12:43] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260831.csv,3,2026/08/31,13:12:43,25.3611,72.362,0
+[2026/08/31 13:12:43] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,12,2026/08/31,13:12:43, ,,72.362
+[2026/08/31 13:13:56] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,5,2026/08/31,13:13:56,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, F
+[2026/08/31 13:13:56] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, List`1 TotalList) 於 C:\AppSource\ToCsv.cs: 行 764 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, List`1 TotalList) 於 C:\AppSource\ToCsv.cs: 行 764
+
+[2026/08/31 13:14:14] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,13,2026/08/31,13:14:14,警告
+[2026/08/31 13:14:14] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,6,2026/08/31,13:14:14,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:14:14] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,16,2026/08/31,13:14:14,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:14:51] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,14,2026/08/31,13:14:51,分析中
+[2026/08/31 13:14:51] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv
+[2026/08/31 13:14:51] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,1,20260831,13:14:51,,,,,,Working,0,分析中
+[2026/08/31 13:14:51] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,15,2026/08/31,13:14:51,警告
+[2026/08/31 13:14:51] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,7,2026/08/31,13:14:51,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:14:51] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,2,2026/08/31,13:14:51,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:14:52] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260831.csv,4,2026/08/31,13:14:52,25.3611,72.362,0
+[2026/08/31 13:14:52] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,13,2026/08/31,13:14:52, ,,72.362
+[2026/08/31 13:15:08] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,8,2026/08/31,13:15:08,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, F
+[2026/08/31 13:15:08] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,3,2026/08/31,13:15:08,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:15:39] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,4,20260831,13:15:39,,,,,,Analyze start,104,Fe3+检测开始
+[2026/08/31 13:15:47] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260831.csv,5,2026/08/31,13:15:47,25.3611,72.362,0
+[2026/08/31 13:15:47] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,14,2026/08/31,13:15:47, ,,72.362
+[2026/08/31 13:15:47] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,5,20260831,13:15:47,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/08/31 13:15:57] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,6,20260831,13:15:57,,,,,,Analyze start,104,Fe3+检测开始
+[2026/08/31 13:16:05] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260831.csv,6,2026/08/31,13:16:05,25.3611,72.362,0
+[2026/08/31 13:16:05] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,15,2026/08/31,13:16:05, ,,72.362
+[2026/08/31 13:16:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,7,20260831,13:16:05,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/08/31 13:16:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,8,20260831,13:16:16,,,,,,Analyze start,104,Fe3+检测开始
+[2026/08/31 13:16:24] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,16,2026/08/31,13:16:24,警告
+[2026/08/31 13:16:24] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,9,2026/08/31,13:16:24,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:16:24] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,9,2026/08/31,13:16:24,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:16:31] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260831.csv,7,2026/08/31,13:16:31,25.3611,72.362,0
+[2026/08/31 13:16:31] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,16,2026/08/31,13:16:31, ,,72.362
+[2026/08/31 13:16:55] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,10,2026/08/31,13:16:53,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, F
+[2026/08/31 13:16:55] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,10,2026/08/31,13:16:53,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:17:03] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,11,20260831,13:17:03,,,,,,Analyze start,104,Fe3+检测开始
+[2026/08/31 13:17:06] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260831.csv,8,2026/08/31,13:17:06,25.3611,72.362,0
+[2026/08/31 13:17:06] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,17,2026/08/31,13:17:06, ,,72.362
+[2026/08/31 13:17:06] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,12,20260831,13:17:06,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/08/31 13:17:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,13,20260831,13:17:27,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:17:40] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,10,2026/08/31,13:17:40,25.3611,72.362,0
+[2026/08/31 13:17:40] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,18,2026/08/31,13:17:40, ,72.362,
+[2026/08/31 13:17:40] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,14,20260831,13:17:40,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/08/31 13:18:04] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,17,2026/08/31,13:18:04,警告
+[2026/08/31 13:18:04] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,11,2026/08/31,13:18:04,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:18:04] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,15,2026/08/31,13:18:04,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:18:07] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,16,20260831,13:18:07,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:18:15] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,11,2026/08/31,13:18:15,25.3611,72.362,0
+[2026/08/31 13:18:15] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,19,2026/08/31,13:18:15, ,72.362,
+[2026/08/31 13:19:13] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,12,2026/08/31,13:19:13,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, F
+[2026/08/31 13:19:13] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,17,2026/08/31,13:19:13,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:19:32] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,18,2026/08/31,13:19:32,警告
+[2026/08/31 13:19:37] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,13,2026/08/31,13:19:37,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:19:37] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,18,2026/08/31,13:19:37,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:19:40] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,19,20260831,13:19:40,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:19:45] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,12,2026/08/31,13:19:45,25.3611,72.362,0
+[2026/08/31 13:19:45] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,20,2026/08/31,13:19:45, ,72.362,
+[2026/08/31 13:20:06] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,20,20260831,13:20:06,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:20:11] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,13,2026/08/31,13:20:11,25.3611,72.362,0
+[2026/08/31 13:20:11] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,21,2026/08/31,13:20:11, ,72.362,
+[2026/08/31 13:21:54] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,14,2026/08/31,13:21:54,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, F
+[2026/08/31 13:21:54] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,21,2026/08/31,13:21:54,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:22:02] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,22,20260831,13:22:02,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:22:10] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,14,2026/08/31,13:22:10,25.3611,72.362,0
+[2026/08/31 13:22:10] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,22,2026/08/31,13:22:10, ,72.362,
+[2026/08/31 13:22:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,23,20260831,13:22:10,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/08/31 13:22:39] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,19,2026/08/31,13:22:39,警告
+[2026/08/31 13:22:39] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,15,2026/08/31,13:22:39,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:22:39] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,24,2026/08/31,13:22:39,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:22:41] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,25,20260831,13:22:41,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:22:47] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,15,2026/08/31,13:22:47,25.3611,72.362,0
+[2026/08/31 13:22:47] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,23,2026/08/31,13:22:47, ,72.362,
+[2026/08/31 13:23:42] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,16,2026/08/31,13:23:42,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, F
+[2026/08/31 13:23:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,26,2026/08/31,13:23:42,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:23:44] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,27,20260831,13:23:44,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:23:50] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,16,2026/08/31,13:23:50,25.3611,72.362,0
+[2026/08/31 13:23:50] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,24,2026/08/31,13:23:50, ,72.362,
+[2026/08/31 13:23:50] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,28,20260831,13:23:50,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/08/31 13:24:08] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,29,20260831,13:24:08,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:24:16] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,20,2026/08/31,13:24:16,警告
+[2026/08/31 13:24:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,17,2026/08/31,13:24:16,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:24:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,30,2026/08/31,13:24:16,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:24:22] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,17,2026/08/31,13:24:22,25.3611,72.362,0
+[2026/08/31 13:24:22] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,25,2026/08/31,13:24:22, ,72.362,
+[2026/08/31 13:24:43] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,18,2026/08/31,13:24:43,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, F
+[2026/08/31 13:24:43] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,31,2026/08/31,13:24:43,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:24:53] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,32,20260831,13:24:53,,,,,,Analyze start,104,Fe3+检测开始
+[2026/08/31 13:25:01] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260831.csv,9,2026/08/31,13:25:01,25.3611,72.362,0
+[2026/08/31 13:25:01] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,26,2026/08/31,13:25:01, ,,72.362
+[2026/08/31 13:25:01] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,33,20260831,13:25:01,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/08/31 13:25:40] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,34,20260831,13:25:40,,,,,,Analyze start,101,Cu2+检测开始
+[2026/08/31 13:25:56] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260831.csv,21,2026/08/31,13:25:56,警告
+[2026/08/31 13:25:56] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260831.csv,19,2026/08/31,13:25:56,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/08/31 13:25:56] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260831.csv,35,2026/08/31,13:25:56,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/08/31 13:26:04] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260831.csv,18,2026/08/31,13:26:04,25.3611,72.362,0
+[2026/08/31 13:26:04] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (4)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260831.csv,27,2026/08/31,13:26:04, ,72.362,

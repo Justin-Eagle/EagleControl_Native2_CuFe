@@ -1,0 +1,12 @@
+﻿Index,日期(Date),時間(Time),料號(PartNo),批號(LotID),JobNo (or Quarter information),工號(OPID),生產程式(Recipe),設備狀態,錯誤代碼,代碼訊息
+1,2026/09/02,00:00:01,,,,,,Working,0,分析中
+2,2026/09/02,00:00:01,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+3,2026/09/02,00:00:12,,,,,,Alarm start,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+4,2026/09/02,00:00:39,,,,,,Working,0,分析中
+5,2026/09/02,00:00:39,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+6,2026/09/02,00:00:10,,,,,,Alarm start,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+7,2026/09/02,00:00:57,,,,,,Working,0,分析中
+8,2026/09/02,00:00:57,,,,,,Alarm start,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+9,2026/09/02,00:00:24,,,,,,Alarm end,59A,PLC1_Normal_Warning1.A—报警：分析浓度超规解除
+10,2026/09/02,00:00:36,,,,,,Alarm start,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+11,2026/09/02,00:00:49,,,,,,Alarm end,59A,PLC1_Normal_Warning1.A—报警：分析浓度超规解除

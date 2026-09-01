@@ -237,10 +237,28 @@ namespace EagleControl_Native2_CuFe
 
             Array.Copy(TotolContent, 35, _calibrationParameter, 0, 32);
 
+            String NowDate = $"{DateTime.Now:yyyy/MM/dd}";
+
+
             while (!cancellationToken.IsCancellationRequested)
             {
                 try
                 {
+                    if ($"{DateTime.Now:yyyy/MM/dd}" != NowDate) {
+
+                        NowDate = $"{DateTime.Now:yyyy/MM/dd}";
+
+                        System.Windows.Application.Current.Dispatcher.Invoke(() =>
+                        {
+                            Monitor1.Text = "[以上隔日畫面清除] \n";
+                            Monitor2.Text = "[以上隔日畫面清除] \n";
+                            Monitor3.Text = "[以上隔日畫面清除] \n";
+                            Monitor5.Text = "[以上隔日畫面清除] \n";
+                            Monitor6.Text = "[以上隔日畫面清除] \n";
+
+                        });
+                    }
+
 
                     TotolContent = Read(Catch_1+ Catch_2+ Catch_3+ Catch_4+ Catch_5, 1+25+1+8+32);
 
@@ -478,10 +496,16 @@ namespace EagleControl_Native2_CuFe
                                     {
                                         _isAnalyseDataOutSpec = true;
                                     }
+
                                 }
                                 else if (_deviceBitValue[j] == false)
                                 {
                                     row.Add("OFF");
+
+                                    if (_deviceList[i] == "D7003" && _checkBitPosition[i][j].ToString() == "10")
+                                    {
+                                        _isAnalyseDataOutSpec = false;
+                                    }
                                 }
 
                                 _nowList.Add(new List<string>(row));

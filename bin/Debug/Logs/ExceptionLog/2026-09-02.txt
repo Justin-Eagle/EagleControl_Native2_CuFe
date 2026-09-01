@@ -1,0 +1,4 @@
+[2026/09/02 00:00:00] 呼叫執行緒無法存取此物件，因為此物件屬於另一個執行緒。
+   於 System.Windows.Threading.Dispatcher.VerifyAccess()
+   於 System.Windows.Controls.TextBox.set_Text(String value)
+   於 EagleControl_Native2_CuFe.MainWindow.Go(CancellationToken cancellationToken) 於 C:\AppSource\MainWindow.xaml.cs: 行 251

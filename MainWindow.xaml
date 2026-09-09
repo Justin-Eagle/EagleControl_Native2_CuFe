@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EagleControl_Native2_CuFe"
         mc:Ignorable="d"
-        Title="EagleControl_Native2_CuFe v1.0.5" Height="1070" Width="1920" Background="Black" WindowState="Maximized">
+        Title="EagleControl_Native2_CuFe v1.0.6" Height="1070" Width="1920" Background="#F0F0F0" WindowState="Maximized">
 
     <Window.Resources>
         <Style x:Key="CircularButtonStyle" TargetType="Button">
@@ -39,138 +39,291 @@
                 </Setter.Value>
             </Setter>
         </Style>
+
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="BorderThickness" Value="1"/>
+
+            <Setter Property="Background" Value="White"/>
+
+        </Style>
     </Window.Resources>
 
     <Grid>
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition Width="4*"/>
-            <ColumnDefinition Width="5*" />
-            <ColumnDefinition Width="5*"/>
-        </Grid.ColumnDefinitions>
-
         <Grid.RowDefinitions>
-            <RowDefinition Height="8*"/>
-            <RowDefinition Height="8*"/>
-            <RowDefinition Height="2*"/>
-
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
-        <Rectangle Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"  Margin="3,5,3,3" Fill="#9D9D9D" RadiusX="7"  RadiusY="7"/>
-        <Rectangle Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4"  Margin="3,0,3,5" Fill="#9D9D9D" RadiusX="7"  RadiusY="7"/>
-        <Rectangle Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4"  Margin="3,0,3,5" Fill="#9D9D9D" RadiusX="7"  RadiusY="7"/>
+        <TabControl Grid.Row="0" Grid.Column="0" Background="White">
+
+            <TabItem FontWeight="Bold">
+                <TabItem.Header>
+                    <TextBlock Text="主畫面" FontSize="20" />
+                </TabItem.Header>
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1.9*"/>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="3*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <Rectangle Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"  Margin="3,5,3,3" Fill="#9D9D9D" RadiusX="7"  RadiusY="7"/>
+
+                    <Rectangle Grid.Row="0" Grid.Column="0"  Margin="3,5,3,3" Fill="#BEBEBE" RadiusX="7"  RadiusY="7"/>
+
+                    <StackPanel Grid.Row="0" Grid.Column="0" Margin="27,0,32,30">
+
+                        <StackPanel>
+                            <Label Content="Cu2+" HorizontalAlignment="Center" Margin="150,10,0,0" Height="70" Width="271" FontSize="50"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="80" Margin="0,30,0,0" Width="358">
+                            <Label Content="數值" VerticalAlignment="Top" Margin="0,15,15,0" Height="50" Width="80" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element1Value"  TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Height="75" FontSize="45" IsReadOnly="True" Background="#ADADAD"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="80" Margin="0,10,0,0" Width="358">
+                            <Label Content="範圍" VerticalAlignment="Top" Margin="0,15,15,0" Height="50" Width="80" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element1Range" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Height="75" FontSize="45" IsReadOnly="True" Background="#ADADAD"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="75" Margin="0,10,0,0" Width="375">
+                            <Label Content="時間" VerticalAlignment="Top" Margin="0,15,15,0" Height="50" Width="80" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element1Time" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Height="75" FontSize="25" Text="" IsReadOnly="True" Background="#ADADAD"/>
+                        </StackPanel>
+
+                        <StackPanel>
+                            <Label Content="判斷範圍" HorizontalAlignment="Center" Margin="50,40,0,0" Height="70" Width="209" FontSize="40"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="80,10,0,0">
+                            <Label Content="OOS 上限 : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,15,0" Height="50" Width="161" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element1_OOS_HighLimit" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="44" FontSize="25" Text="100.2357" IsEnabled="False"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="80,20,0,0">
+                            <Label Content="OOC 上限 : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,15,0" Height="50" Width="161" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element1_OOC_HighLimit" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="44" FontSize="25" Text="100.2357" IsEnabled="False"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="80,20,0,0">
+                            <Label Content="OOC 下限 : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,15,0" Height="50" Width="161" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element1_OOC_LowLimit" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="44" FontSize="25" Text="100.2357" IsEnabled="False"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="80,20,0,0">
+                            <Label Content="OOS 下限 : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,15,0" Height="50" Width="161" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element1_OOS_LowLimit" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="44" FontSize="25" Text="100.2357" IsEnabled="False"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="130,40,0,0">
+                            <Button x:Name="Element1_LockBtn" Content="上鎖" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,20,0" Height="50" Width="110" FontSize="30" Background="Green" IsEnabled="False"  Click="Element1_LockBtn_Click"/>
+                            <Button x:Name="Element1_UnLockBtn" Content="解鎖" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="110" FontSize="30" Background="Green" Click="Element1_UnLockBtn_Click"/>
+                        </StackPanel>
+
+                    </StackPanel>
+
+                    <Rectangle Grid.Row="0" Grid.Column="1"  Margin="3,5,3,3" Fill="#BEBEBE" RadiusX="7"  RadiusY="7"/>
+
+                    <StackPanel Grid.Row="0" Grid.Column="1" Margin="27,0,32,30">
+
+                        <StackPanel>
+                            <Label Content="Fe3+" HorizontalAlignment="Center" Margin="170,10,0,0" Height="70" Width="271" FontSize="50"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="80" Margin="10,30,0,0" Width="358">
+                            <Label Content="數值" VerticalAlignment="Top" Margin="0,15,15,0" Height="50" Width="80" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element2Value" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Height="75" FontSize="45" Text="" IsReadOnly="True" Background="#ADADAD"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="80" Margin="10,10,0,0" Width="358">
+                            <Label Content="範圍" VerticalAlignment="Top" Margin="0,15,15,0" Height="50" Width="80" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element2Range" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Height="75" FontSize="45" Text="" IsReadOnly="True" Background="#ADADAD"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="75" Margin="10,10,0,0" Width="375">
+                            <Label Content="時間" VerticalAlignment="Top" Margin="0,15,15,0" Height="50" Width="80" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element2Time" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Height="75" FontSize="25" Text="" IsReadOnly="True" Background="#ADADAD"/>
+                        </StackPanel>
+
+                        <StackPanel>
+                            <Label Content="判斷範圍" HorizontalAlignment="Center" Margin="40,40,0,0" Height="70" Width="209" FontSize="40"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="90,10,0,0">
+                            <Label Content="OOS 上限 : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,15,0" Height="50" Width="161" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element2_OOS_HighLimit" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="44" FontSize="25" Text="100.2357" IsEnabled="False"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="90,20,0,0">
+                            <Label Content="OOC 上限 : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,15,0" Height="50" Width="161" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element2_OOC_HighLimit" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="44" FontSize="25" Text="100.2357" IsEnabled="False"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="90,20,0,0">
+                            <Label Content="OOC 下限 : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,15,0" Height="50" Width="161" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element2_OOC_LowLimit" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="44" FontSize="25" Text="100.2357" IsEnabled="False"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="90,20,0,0">
+                            <Label Content="OOS 下限 : " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,15,0" Height="50" Width="161" FontSize="30" Foreground="Black"/>
+                            <TextBox x:Name="Element2_OOS_LowLimit" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="44" FontSize="25" Text="100.2357" IsEnabled="False"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="50" Margin="130,40,0,0">
+                            <Button x:Name="Element2_LockBtn" Content="上鎖" Height="50" Width="110" FontSize="30" Margin="0,0,20,0" Background="Green" IsEnabled="False" Click="Element2_LockBtn_Click"/>
+                            <Button x:Name="Element2_UnLockBtn" Content="解鎖" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="110" FontSize="30" Background="Green" Click="Element2_UnLockBtn_Click"/>
+                        </StackPanel>
 
 
-        <Border Margin="6,8,0,8" Grid.Row="0" Grid.Column="0" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5" Grid.ColumnSpan="2">
-            <StackPanel>
 
-                <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
-                    <Label  Margin="0,5,0,0" Content="機台狀態" FontSize="25" FontWeight="Bold" />
-                    <Button Margin="10,3,0,0" Height="21" Width="55" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="{Binding IsDataMonitorLogEraseButtonEnabled}" Command="{Binding DataMonitorLogEraseCommand}" Click="Button_Click"></Button>
-                </StackPanel>
+                    </StackPanel>
 
-                <StackPanel Margin="0,0,0,0">
+                </Grid>
+            </TabItem>
 
-                    <TextBox x:Name="Monitor1" FontSize="20"  Margin="0,5,0,5" Width="600" Height="360" Grid.Row="0" Grid.Column="1" Background="White" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" IsReadOnly="True"></TextBox>
+            <TabItem FontWeight="Bold">
+                <TabItem.Header>
+                    <TextBlock Text="其他訊息" FontSize="20" />
+                </TabItem.Header>
 
-                </StackPanel>
-            </StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
 
-        </Border>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="8*"/>
+                        <RowDefinition Height="8*"/>
 
-        <Border Margin="6,8,0,8" Grid.Row="0" Grid.Column="2" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5">
-            <StackPanel>
+                    </Grid.RowDefinitions>
 
-                <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
-                    <Label  Margin="0,5,0,0" Content="警報狀態" FontSize="25" FontWeight="Bold" />
-                    <Button Margin="10,3,0,0" Height="21" Width="52" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="{Binding IsDataMonitorLogEraseButtonEnabled}" Command="{Binding DataMonitorLogEraseCommand}" Click="Button_Click_1"></Button>
-                </StackPanel>
+                    <Rectangle Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"  Margin="3,5,3,3" Fill="#9D9D9D" RadiusX="7"  RadiusY="7"/>
+                    <Rectangle Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4"  Margin="3,0,3,5" Fill="#9D9D9D" RadiusX="7"  RadiusY="7"/>
 
-                <StackPanel Margin="0,0,0,0">
+                    <Border Margin="6,8,0,8" Grid.Row="0" Grid.Column="0" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5" >
+                        <StackPanel>
 
-                    <TextBox x:Name="Monitor2" FontSize="20"  Margin="0,5,0,5" Width="600" Height="360"  Grid.Row="0" Grid.Column="1" Background="White" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Text="{Binding DataMonitorLog, Mode=OneWay }" IsReadOnly="True"></TextBox>
+                            <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
+                                <Label  Margin="0,5,0,0" Content="機台狀態" FontSize="25" FontWeight="Bold" />
+                                <Button Margin="10,3,0,0" Height="21" Width="55" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="{Binding IsDataMonitorLogEraseButtonEnabled}" Command="{Binding DataMonitorLogEraseCommand}" Click="Button_Click"></Button>
+                            </StackPanel>
 
-                </StackPanel>
-            </StackPanel>
+                            <StackPanel Margin="0,0,0,0">
 
-        </Border>
+                                <TextBox x:Name="Monitor1" FontSize="20"  Margin="0,5,0,5" Width="600" Height="360" Grid.Row="0" Grid.Column="0" Background="White" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" IsReadOnly="True"></TextBox>
 
-        <Border Margin="6,8,6,8" Grid.Row="0" Grid.Column="3" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5">
-            <StackPanel>
+                            </StackPanel>
+                        </StackPanel>
 
-                <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
-                    <Label  Margin="0,5,0,0" Content="分析結果" FontSize="25" FontWeight="Bold" />
-                    <Button Margin="10,3,0,0" Height="21" Width="52" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="{Binding IsDataMonitorLogEraseButtonEnabled}" Command="{Binding DataMonitorLogEraseCommand}" Click="Button_Click_2"></Button>
-                </StackPanel>
+                    </Border>
 
-                <StackPanel Margin="0,0,0,0">
+                    <Border Margin="6,8,0,8" Grid.Row="0" Grid.Column="1" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5">
+                        <StackPanel>
 
-                    <TextBox x:Name="Monitor3" FontSize="20"  Margin="0,5,0,5" Width="600" Height="360"  Grid.Row="0" Grid.Column="1" Background="White" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Text="{Binding DataMonitorLog, Mode=OneWay }" IsReadOnly="True"></TextBox>
+                            <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
+                                <Label  Margin="0,5,0,0" Content="警報狀態" FontSize="25" FontWeight="Bold" />
+                                <Button Margin="10,3,0,0" Height="21" Width="52" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="{Binding IsDataMonitorLogEraseButtonEnabled}" Command="{Binding DataMonitorLogEraseCommand}" Click="Button_Click_1"></Button>
+                            </StackPanel>
 
-                </StackPanel>
-            </StackPanel>
+                            <StackPanel Margin="0,0,0,0">
 
-        </Border>
+                                <TextBox x:Name="Monitor2" FontSize="20"  Margin="0,5,0,5" Width="600" Height="360"  Grid.Row="0" Grid.Column="1" Background="White" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Text="{Binding DataMonitorLog, Mode=OneWay }" IsReadOnly="True"></TextBox>
 
-        <Border Margin="6,3,0,8" Grid.Row="1" Grid.Column="0" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5" Grid.ColumnSpan="2">
-            <StackPanel>
+                            </StackPanel>
+                        </StackPanel>
 
-                <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
-                    <Label  Margin="0,5,0,0" Content="滴定過程" FontSize="25" FontWeight="Bold" />
-                    <Button Margin="10,3,0,0" Height="21" Width="52" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="False"></Button>
-                </StackPanel>
+                    </Border>
 
-                <StackPanel Margin="0,0,0,0">
+                    <Border Margin="6,8,6,8" Grid.Row="0" Grid.Column="2" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5">
+                        <StackPanel>
 
-                    <TextBox x:Name="Monitor4" FontSize="20"  Margin="0,5,0,5" Width="600" Height="360"  Grid.Row="0" Grid.Column="1" Background="LightGray" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Text="{Binding DataMonitorLog, Mode=OneWay }" IsReadOnly="True" ></TextBox>
+                            <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
+                                <Label  Margin="0,5,0,0" Content="分析結果" FontSize="25" FontWeight="Bold" />
+                                <Button Margin="10,3,0,0" Height="21" Width="52" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="{Binding IsDataMonitorLogEraseButtonEnabled}" Command="{Binding DataMonitorLogEraseCommand}" Click="Button_Click_2"></Button>
+                            </StackPanel>
 
-                </StackPanel>
-            </StackPanel>
+                            <StackPanel Margin="0,0,0,0">
 
-        </Border>
+                                <TextBox x:Name="Monitor3" FontSize="20"  Margin="0,5,0,5" Width="600" Height="360"  Grid.Row="0" Grid.Column="1" Background="White" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Text="{Binding DataMonitorLog, Mode=OneWay }" IsReadOnly="True"></TextBox>
 
-        <Border Margin="6,3,0,8" Grid.Row="1" Grid.Column="2" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5">
-            <StackPanel>
+                            </StackPanel>
+                        </StackPanel>
 
-                <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
-                    <Label  Margin="0,5,0,0" Content="校正參數" FontSize="25" FontWeight="Bold" />
-                    <Button Margin="10,3,0,0" Height="21" Width="52" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="{Binding IsDataMonitorLogEraseButtonEnabled}" Command="{Binding DataMonitorLogEraseCommand}" Click="Button_Click_3"></Button>
-                </StackPanel>
+                    </Border>
 
-                <StackPanel Margin="0,0,0,0">
+                    <Border Margin="6,3,0,8" Grid.Row="1" Grid.Column="0" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5">
+                        <StackPanel>
 
-                    <TextBox x:Name="Monitor5" FontSize="20"  Margin="0,5,0,5" Width="600" Height="360"  Grid.Row="0" Grid.Column="1" Background="White" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Text="{Binding DataMonitorLog, Mode=OneWay }" IsReadOnly="True"></TextBox>
+                            <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
+                                <Label  Margin="0,5,0,0" Content="滴定過程" FontSize="25" FontWeight="Bold" />
+                                <Button Margin="10,3,0,0" Height="21" Width="52" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="False"></Button>
+                            </StackPanel>
 
-                </StackPanel>
-            </StackPanel>
+                            <StackPanel Margin="0,0,0,0">
 
-        </Border>
+                                <TextBox x:Name="Monitor4" FontSize="20"  Margin="0,5,0,5" Width="600" Height="360"  Grid.Row="0" Grid.Column="1" Background="LightGray" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Text="{Binding DataMonitorLog, Mode=OneWay }" IsReadOnly="True" ></TextBox>
 
-        <Border Margin="6,3,6,8" Grid.Row="1" Grid.Column="3" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5">
-            <StackPanel>
+                            </StackPanel>
+                        </StackPanel>
 
-                <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
-                    <Label  Margin="0,5,0,0" Content="監控紀錄" FontSize="25" FontWeight="Bold" />
-                    <Button Margin="10,3,0,0" Height="21" Width="52" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="{Binding IsDataMonitorLogEraseButtonEnabled}" Command="{Binding DataMonitorLogEraseCommand}" Click="Button_Click_4"></Button>
-                </StackPanel>
+                    </Border>
 
-                <StackPanel Margin="0,0,0,0">
+                    <Border Margin="6,3,0,8" Grid.Row="1" Grid.Column="1" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5">
+                        <StackPanel>
 
-                    <TextBox x:Name="Monitor6" FontSize="20" Margin="0,5,0,5" Width="600" Height="360"  Grid.Row="0" Grid.Column="1" Background="White" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" IsReadOnly="True"></TextBox>
+                            <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
+                                <Label  Margin="0,5,0,0" Content="校正參數" FontSize="25" FontWeight="Bold" />
+                                <Button Margin="10,3,0,0" Height="21" Width="52" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="{Binding IsDataMonitorLogEraseButtonEnabled}" Command="{Binding DataMonitorLogEraseCommand}" Click="Button_Click_3"></Button>
+                            </StackPanel>
 
-                </StackPanel>
-            </StackPanel>
+                            <StackPanel Margin="0,0,0,0">
 
-        </Border>
-        <Label Grid.Column="2" Content="Station Number" HorizontalAlignment="Left" Margin="40,32,0,0" Grid.Row="2" VerticalAlignment="Top" FontSize="25" FontWeight="Bold" Width="210"/>
-        <TextBox x:Name="StationNum" Grid.Column="2" HorizontalAlignment="Right" Margin="0,32,320,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Height="41" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="1" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="GoButton" Style="{StaticResource CircularButtonStyle}" Grid.Column="2" Content="GO" HorizontalAlignment="Left" Margin="475,11,0,0" Grid.Row="2" VerticalAlignment="Top" Height="80" Width="90" FontWeight="Bold" FontSize="40" Background="Green" Click="GoButton_Click"/>
-        <Button x:Name="StopButton" Style="{StaticResource CircularButtonStyle}" Grid.Column="2" Content="STOP" HorizontalAlignment="Left" Margin="365,11,0,0" Grid.Row="2" VerticalAlignment="Top" Height="80" Width="90" FontWeight="Bold" Background="Gray" FontSize="30" IsEnabled="False" Click="StopButton_Click"/>
+                                <TextBox x:Name="Monitor5" FontSize="20"  Margin="0,5,0,5" Width="600" Height="360"  Grid.Row="0" Grid.Column="1" Background="White" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Text="{Binding DataMonitorLog, Mode=OneWay }" IsReadOnly="True"></TextBox>
 
-        <Button x:Name="HeartBeatBtn1" Style="{StaticResource CircularButtonStyle}" Grid.Column="2" Content="" HorizontalAlignment="Right" Margin="0,38,34,0" Grid.Row="2" VerticalAlignment="Top" Height="11" Width="11" BorderBrush="Black" Background="black" BorderThickness="5" RenderTransformOrigin="12.28,0.343" IsEnabled="False"/>
+                            </StackPanel>
+                        </StackPanel>
 
-        <Button x:Name="HeartBeatBtn2" Style="{StaticResource CircularButtonStyle}" Grid.Column="2" Content="" HorizontalAlignment="Right" Margin="0,57,34,0" Grid.Row="2" VerticalAlignment="Top" Height="11" Width="11" BorderBrush="Black" Background="black" BorderThickness="5" RenderTransformOrigin="12.28,0.343" IsEnabled="False"/>
+                    </Border>
 
+                    <Border Margin="6,3,6,8" Grid.Row="1" Grid.Column="3" BorderBrush="LightGray" BorderThickness="2" CornerRadius="5">
+                        <StackPanel>
+
+                            <StackPanel Margin="50,0,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="180">
+                                <Label  Margin="0,5,0,0" Content="監控紀錄" FontSize="25" FontWeight="Bold" />
+                                <Button Margin="10,3,0,0" Height="21" Width="52" Content="畫面清除" FontWeight="Bold" FontSize="11" IsEnabled="{Binding IsDataMonitorLogEraseButtonEnabled}" Command="{Binding DataMonitorLogEraseCommand}" Click="Button_Click_4"></Button>
+                            </StackPanel>
+
+                            <StackPanel Margin="0,0,0,0">
+
+                                <TextBox x:Name="Monitor6" FontSize="20" Margin="0,5,0,5" Width="600" Height="360"  Grid.Row="0" Grid.Column="1" Background="White" TextAlignment="Left" VerticalContentAlignment="Top" BorderThickness="1" HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" IsReadOnly="True"></TextBox>
+
+                            </StackPanel>
+                        </StackPanel>
+
+                    </Border>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+
+        <Grid Grid.Column="2" Grid.Row="2" >
+            <Label Content="Station Number" HorizontalAlignment="Left" Margin="665,0,0,0" VerticalAlignment="Center" FontSize="25" FontWeight="Bold" Width="210"/>
+            <TextBox x:Name="StationNum" HorizontalAlignment="Left" Margin="880,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="65" Height="41" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="1" FontSize="20" FontWeight="Bold"/>
+            <Button x:Name="GoButton" Style="{StaticResource CircularButtonStyle}" Content="GO" HorizontalAlignment="Left" Margin="1120,0,0,0" VerticalAlignment="Center" Height="80" Width="90" FontWeight="Bold" FontSize="40" Background="Green" Click="GoButton_Click"/>
+            <Button x:Name="StopButton" Style="{StaticResource CircularButtonStyle}" Content="STOP" HorizontalAlignment="Left" Margin="1010,0,0,0" VerticalAlignment="Center" Height="80" Width="90" FontWeight="Bold" Background="Gray" FontSize="30" IsEnabled="False" Click="StopButton_Click"/>
+
+            <Button x:Name="HeartBeatBtn1" Style="{StaticResource CircularButtonStyle}" Content="" HorizontalAlignment="Right" Margin="0,33,664,0" VerticalAlignment="Top" Height="11" Width="11" BorderBrush="Black" Background="black" BorderThickness="5" RenderTransformOrigin="12.28,0.343" IsEnabled="False"/>
+
+            <Button x:Name="HeartBeatBtn2" Style="{StaticResource CircularButtonStyle}" Content="" HorizontalAlignment="Right" Margin="0,52,664,0" VerticalAlignment="Top" Height="11" Width="11" BorderBrush="Black" Background="black" BorderThickness="5" RenderTransformOrigin="12.28,0.343" IsEnabled="False"/>
+
+        </Grid>
     </Grid>
 </Window>

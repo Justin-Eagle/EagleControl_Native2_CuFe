@@ -1,0 +1,9 @@
+Element1_OOS_HighLimit,200.589
+Element1_OOC_HighLimit,195.589
+Element1_OOC_LowLimit,190.589
+Element1_OOS_LowLimit,185.589
+Element2_OOS_HighLimit,180.589
+Element2_OOC_HighLimit,175.589
+Element2_OOC_LowLimit,170.589
+Element2_OOS_LowLimit,165.589
+StationNum,1

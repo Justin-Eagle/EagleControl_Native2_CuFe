@@ -1,0 +1,361 @@
+[2026/09/09 17:08:06] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv
+[2026/09/09 17:08:06] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,1,20260909,17:08:06,,,,,,Analyze start,101,Cu2+检测开始
+[2026/09/09 17:08:24] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv
+[2026/09/09 17:08:24] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,1,2026/09/09,17:08:24,190.623,0,0
+[2026/09/09 17:08:24] Success (CreateWriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv
+[2026/09/09 17:08:24] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,1,2026/09/09,17:08:24, ,0,
+[2026/09/09 17:08:24] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,2,20260909,17:08:24,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/09/09 17:10:10] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,3,20260909,17:10:10,,,,,,Analyze start,101,Cu2+检测开始
+[2026/09/09 17:10:18] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,2,2026/09/09,17:10:18,0,190.623,0
+[2026/09/09 17:10:18] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,2,2026/09/09,17:10:18, ,190.623,
+[2026/09/09 17:10:18] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,4,20260909,17:10:18,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/09/09 17:13:03] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,5,20260909,17:13:03,,,,,,Analyze start,101,Cu2+检测开始
+[2026/09/09 17:13:08] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,3,2026/09/09,17:13:08,0,190.623,0
+[2026/09/09 17:13:08] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,3,2026/09/09,17:13:08, ,190.623,
+[2026/09/09 17:13:08] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,6,20260909,17:13:08,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/09/09 17:13:29] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,7,20260909,17:13:29,,,,,,Analyze start,101,Cu2+检测开始
+[2026/09/09 17:13:32] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,4,2026/09/09,17:13:32,0,190.623,0
+[2026/09/09 17:13:32] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,4,2026/09/09,17:13:32, ,190.623,
+[2026/09/09 17:13:32] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,8,20260909,17:13:32,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/09/09 17:14:35] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,9,20260909,17:14:35,,,,,,Analyze start,101,Cu2+检测开始
+[2026/09/09 17:14:37] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,5,2026/09/09,17:14:37,0,190.623,0
+[2026/09/09 17:14:37] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,5,2026/09/09,17:14:37, ,190.623,
+[2026/09/09 17:14:37] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,10,20260909,17:14:37,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/09/09 17:15:29] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,6,2026/09/09,17:15:29,0,190.623,0
+[2026/09/09 17:15:29] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,6,2026/09/09,17:15:29, ,190.623,
+[2026/09/09 17:15:29] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,11,20260909,17:15:29,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/09/09 17:15:42] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,12,20260909,17:15:42,,,,,,Analyze start,104,Fe3+检测开始
+[2026/09/09 17:15:45] Success (CreateAnalyseDataExcel) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv
+[2026/09/09 17:15:45] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,1,2026/09/09,17:15:45,0,190.623,0
+[2026/09/09 17:15:45] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,7,2026/09/09,17:15:45, ,,190.623
+[2026/09/09 17:15:45] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,13,20260909,17:15:45,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/09/09 17:16:27] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,7,2026/09/09,17:16:27,0,190.623,0
+[2026/09/09 17:16:27] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,8,2026/09/09,17:16:27, ,190.623,
+[2026/09/09 17:16:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,14,20260909,17:16:27,,,,,,Error reset,102,Cu2+ 監控濃度在規格內
+[2026/09/09 17:17:27] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,15,20260909,17:17:27,,,,,,Analyze start,104,Fe3+检测开始
+[2026/09/09 17:17:32] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,2,2026/09/09,17:17:32,0,190.156,0
+[2026/09/09 17:17:32] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,9,2026/09/09,17:17:32, ,,190.156
+[2026/09/09 17:17:32] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,16,20260909,17:17:32,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/09/09 17:18:03] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,17,20260909,17:18:03,,,,,,Analyze start,104,Fe3+检测开始
+[2026/09/09 17:18:06] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,3,2026/09/09,17:18:06,0,155.156,0
+[2026/09/09 17:18:06] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,10,2026/09/09,17:18:06, ,,155.156
+[2026/09/09 17:18:06] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,18,20260909,17:18:06,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/09/09 17:38:03] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,19,20260909,17:38:03,,,,,,Error start2,Fe3+ 分析濃度OOS,
+[2026/09/09 17:38:03] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,4,2026/09/09,17:38:03,0,155.156,0
+[2026/09/09 17:38:03] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,11,2026/09/09,17:38:03, ,,155.156
+[2026/09/09 17:38:03] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,20,20260909,17:38:03,,,,,,Error reset,105,Fe3+監控濃度在規格內
+[2026/09/09 17:42:16] Success (CreateExcel) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv
+[2026/09/09 17:42:16] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,1,2026/09/09,17:42:16,分析中
+[2026/09/09 17:42:16] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv
+[2026/09/09 17:42:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,1,20260909,17:42:16,,,,,,Working,0,分析中
+[2026/09/09 17:42:16] Success (CreateErrorLogExcel) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260909.csv
+[2026/09/09 17:42:16] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260909.csv,1,2026/09/09,17:42:16,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, T
+[2026/09/09 17:42:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,2,2026/09/09,17:42:16,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/09/09 17:42:16] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,3,20260909,17:42:16,,,,,,Error start2,104,Fe3+ 分析濃度OOS
+[2026/09/09 17:42:16] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,5,2026/09/09,17:42:16,0,155.156,0
+[2026/09/09 17:42:16] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,12,2026/09/09,17:42:16, ,,155.156
+[2026/09/09 17:42:38] Success : (WriteErrorLog) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\ErrorLogCsv\20260909.csv,2,2026/09/09,17:42:36,59,PLC1_Normal_Warning1.A—报警：分析浓度超规, F
+[2026/09/09 17:42:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,4,2026/09/09,17:42:36,59,PLC1_Normal_Warning1.A—报警：分析浓度超规
+[2026/09/09 17:56:35] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,2,2026/09/09,17:56:35,分析中
+[2026/09/09 17:56:35] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:56:35] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:56:35] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,6,2026/09/09,17:56:35,0,155.156,0
+[2026/09/09 17:56:35] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,13,2026/09/09,17:56:35, ,,155.156
+[2026/09/09 17:56:35] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:56:41] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,3,2026/09/09,17:56:41,警告
+[2026/09/09 17:57:03] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,4,2026/09/09,17:57:03,分析中
+[2026/09/09 17:57:03] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:57:03] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,5,2026/09/09,17:57:03,警告
+[2026/09/09 17:57:03] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:57:03] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,7,2026/09/09,17:57:03,0,201.601,0
+[2026/09/09 17:57:03] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,14,2026/09/09,17:57:03, ,,201.601
+[2026/09/09 17:57:03] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:57:32] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,6,2026/09/09,17:57:32,分析中
+[2026/09/09 17:57:32] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:57:32] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,7,2026/09/09,17:57:32,警告
+[2026/09/09 17:57:32] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:57:32] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,8,2026/09/09,17:57:32,0,201.601,0
+[2026/09/09 17:57:32] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,15,2026/09/09,17:57:32, ,,201.601
+[2026/09/09 17:57:32] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:58:09] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,8,2026/09/09,17:58:09,分析中
+[2026/09/09 17:58:09] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:58:09] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,9,2026/09/09,17:58:09,警告
+[2026/09/09 17:58:09] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:58:12] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:58:12] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,8,2026/09/09,17:58:12,0,201.601,0
+[2026/09/09 17:58:12] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,16,2026/09/09,17:58:12, ,201.601,
+[2026/09/09 17:58:12] System.IO.IOException: 由於另一個處理序正在使用檔案 'C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv'，所以無法存取該檔案。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851 
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   於 System.IO.File.ReadLines(String path)
+   於 EagleControl_Native2_CuFe.ToCsv.WriteShowEventCsv(String Path, String[] _content) 於 C:\AppSource\ToCsv.cs: 行 851
+
+[2026/09/09 17:59:03] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,10,2026/09/09,17:59:03,分析中
+[2026/09/09 17:59:03] Success (CreateWriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv
+[2026/09/09 17:59:03] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,1,20260909,17:59:03,,,,,,Working,0,分析中
+[2026/09/09 17:59:03] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,11,2026/09/09,17:59:03,警告
+[2026/09/09 17:59:03] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,2,20260909,17:59:03,,,,,,Error start2,108,Cu2+ 分析浓度OOS
+[2026/09/09 17:59:03] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,9,2026/09/09,17:59:03,0,201.601,0
+[2026/09/09 17:59:03] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,17,2026/09/09,17:59:03, ,201.601,
+[2026/09/09 17:59:03] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,3,20260909,17:59:03,,,,,,Error reset,102,Cu2+ 监控浓度在规格内
+[2026/09/09 17:59:35] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,4,20260909,17:59:35,,,,,,Analyze start,101,Cu2+检测开始
+[2026/09/09 17:59:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,5,20260909,17:59:38,,,,,,Error start1,106,Cu2+ 分析浓度OOC
+[2026/09/09 17:59:38] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,10,2026/09/09,17:59:38,0,197.601,0
+[2026/09/09 17:59:38] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,18,2026/09/09,17:59:38, ,197.601,
+[2026/09/09 17:59:38] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,6,20260909,17:59:38,,,,,,Error reset,102,Cu2+ 监控浓度在规格内
+[2026/09/09 18:00:32] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,12,2026/09/09,18:00:32,分析中
+[2026/09/09 18:00:32] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,7,20260909,18:00:32,,,,,,Working,0,分析中
+[2026/09/09 18:00:32] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,13,2026/09/09,18:00:32,警告
+[2026/09/09 18:00:32] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,8,20260909,18:00:32,,,,,,Error start1,106,Cu2+ 分析浓度OOC
+[2026/09/09 18:00:32] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,11,2026/09/09,18:00:32,0,197.601,0
+[2026/09/09 18:00:32] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,19,2026/09/09,18:00:32, ,197.601,
+[2026/09/09 18:00:32] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,9,20260909,18:00:32,,,,,,Error reset,102,Cu2+ 监控浓度在规格内
+[2026/09/09 18:01:02] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,10,20260909,18:01:02,,,,,,Analyze start,101,Cu2+检测开始
+[2026/09/09 18:01:05] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,12,2026/09/09,18:01:05,0,193.601,0
+[2026/09/09 18:01:05] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,20,2026/09/09,18:01:05, ,193.601,
+[2026/09/09 18:01:05] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,11,20260909,18:01:05,,,,,,Error reset,102,Cu2+ 监控浓度在规格内
+[2026/09/09 18:01:40] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,12,20260909,18:01:40,,,,,,Analyze start,101,Cu2+检测开始
+[2026/09/09 18:01:43] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,13,20260909,18:01:43,,,,,,Error start1,106,Cu2+ 分析浓度OOC
+[2026/09/09 18:01:43] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,13,2026/09/09,18:01:43,0,188.601,0
+[2026/09/09 18:01:43] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,21,2026/09/09,18:01:43, ,188.601,
+[2026/09/09 18:01:43] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,14,20260909,18:01:43,,,,,,Error reset,102,Cu2+ 监控浓度在规格内
+[2026/09/09 18:02:15] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,15,20260909,18:02:15,,,,,,Analyze start,101,Cu2+检测开始
+[2026/09/09 18:02:18] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,16,20260909,18:02:18,,,,,,Error start2,108,Cu2+ 分析浓度OOS
+[2026/09/09 18:02:18] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_銅\20260909.csv,14,2026/09/09,18:02:18,0,183.601,0
+[2026/09/09 18:02:18] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,22,2026/09/09,18:02:18, ,183.601,
+[2026/09/09 18:02:18] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,17,20260909,18:02:18,,,,,,Error reset,102,Cu2+ 监控浓度在规格内
+[2026/09/09 18:04:15] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,18,20260909,18:04:15,,,,,,Analyze start,104,Fe3+检测开始
+[2026/09/09 18:04:20] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,19,20260909,18:04:20,,,,,,Error start2,109,Fe3+ 分析浓度OOS
+[2026/09/09 18:04:20] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,9,2026/09/09,18:04:20,0,181.601,0
+[2026/09/09 18:04:20] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,23,2026/09/09,18:04:20, ,,181.601
+[2026/09/09 18:04:20] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,20,20260909,18:04:20,,,,,,Error reset,105,Fe3+ 监控浓度在规格内
+[2026/09/09 18:05:25] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,21,20260909,18:05:25,,,,,,Analyze start,104,Fe3+检测开始
+[2026/09/09 18:05:28] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,22,20260909,18:05:28,,,,,,Error start1,107,Fe3+ 分析浓度OOC
+[2026/09/09 18:05:28] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,10,2026/09/09,18:05:28,0,177.601,0
+[2026/09/09 18:05:28] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,24,2026/09/09,18:05:28, ,,177.601
+[2026/09/09 18:05:28] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,23,20260909,18:05:28,,,,,,Error reset,105,Fe3+ 监控浓度在规格内
+[2026/09/09 18:06:15] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,14,2026/09/09,18:06:15,分析中
+[2026/09/09 18:06:15] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,24,20260909,18:06:15,,,,,,Working,0,分析中
+[2026/09/09 18:06:15] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,15,2026/09/09,18:06:15,警告
+[2026/09/09 18:06:15] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,25,20260909,18:06:15,,,,,,Error start1,107,Fe3+ 分析浓度OOC
+[2026/09/09 18:06:15] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,11,2026/09/09,18:06:15,0,177.601,0
+[2026/09/09 18:06:15] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,25,2026/09/09,18:06:15, ,,177.601
+[2026/09/09 18:06:15] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,26,20260909,18:06:15,,,,,,Error reset,105,Fe3+ 监控浓度在规格内
+[2026/09/09 18:06:48] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,27,20260909,18:06:48,,,,,,Analyze start,104,Fe3+检测开始
+[2026/09/09 18:06:51] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,12,2026/09/09,18:06:51,0,173.649,0
+[2026/09/09 18:06:51] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,26,2026/09/09,18:06:51, ,,173.649
+[2026/09/09 18:06:51] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,28,20260909,18:06:51,,,,,,Error reset,105,Fe3+ 监控浓度在规格内
+[2026/09/09 18:07:36] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,29,20260909,18:07:36,,,,,,Analyze start,104,Fe3+检测开始
+[2026/09/09 18:07:39] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,30,20260909,18:07:39,,,,,,Error start1,107,Fe3+ 分析浓度OOC
+[2026/09/09 18:07:39] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,13,2026/09/09,18:07:39,0,169.649,0
+[2026/09/09 18:07:39] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,27,2026/09/09,18:07:39, ,,169.649
+[2026/09/09 18:07:39] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,31,20260909,18:07:39,,,,,,Error reset,105,Fe3+ 监控浓度在规格内
+[2026/09/09 18:08:09] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,32,20260909,18:08:09,,,,,,Analyze start,104,Fe3+检测开始
+[2026/09/09 18:08:12] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,33,20260909,18:08:12,,,,,,Error start2,109,Fe3+ 分析浓度OOS
+[2026/09/09 18:08:12] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,14,2026/09/09,18:08:12,0,164.649,0
+[2026/09/09 18:08:12] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,28,2026/09/09,18:08:12, ,,164.649
+[2026/09/09 18:08:12] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,34,20260909,18:08:12,,,,,,Error reset,105,Fe3+ 监控浓度在规格内
+[2026/09/09 18:25:51] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,16,2026/09/09,18:25:51,分析中
+[2026/09/09 18:25:51] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,35,20260909,18:25:51,,,,,,Working,0,分析中
+[2026/09/09 18:25:51] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,17,2026/09/09,18:25:51,警告
+[2026/09/09 18:25:51] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,36,20260909,18:25:51,,,,,,Error start2,109,Fe3+ 分析浓度OOS
+[2026/09/09 18:25:51] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,15,2026/09/09,18:25:51,0,164.649,0
+[2026/09/09 18:25:51] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,29,2026/09/09,18:25:51, ,,164.649
+[2026/09/09 18:25:51] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,37,20260909,18:25:51,,,,,,Error reset,103,Fe3+ 监控浓度在规格内
+[2026/09/09 18:32:28] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,18,2026/09/09,18:32:28,分析中
+[2026/09/09 18:32:28] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,38,20260909,18:32:28,,,,,,Working,0,分析中
+[2026/09/09 18:32:28] Success : (WriteStatus) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\StatusCsv\20260909.csv,19,2026/09/09,18:32:28,警告
+[2026/09/09 18:32:28] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,39,20260909,18:32:28,,,,,,Error start2,109,Fe3+ 分析浓度OOS
+[2026/09/09 18:32:28] Success : (WriteAnalyseData) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\CsvData\槽A_鐵\20260909.csv,16,2026/09/09,18:32:28,0,164.649,0
+[2026/09/09 18:32:28] Success : (WriteShowDataCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Data\20260909.csv,30,2026/09/09,18:32:28, ,,164.649
+[2026/09/09 18:32:28] Success : (WriteShowEventCsv) => C:\Users\justin\Desktop\新增資料夾 (5)\EagleControl_Native2_CuFe\bin\Debug\ShowData\Event\20260909.csv,40,20260909,18:32:28,,,,,,Error reset,103,Fe3+ 监控浓度在规格内

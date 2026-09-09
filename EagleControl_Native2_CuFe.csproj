@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
-		<PathMap>$(MSBuildProjectDirectory)=C:\AppSource</PathMap>
-	</PropertyGroup>
-	<PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'">
+    <PathMap>$(MSBuildProjectDirectory)=C:\AppSource</PathMap>
+  </PropertyGroup>
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{91354D2D-04CA-4D2E-910E-4604D721295C}</ProjectGuid>
@@ -90,6 +90,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ToCsv.cs" />
+    <Compile Include="UnLockView.xaml.cs">
+      <DependentUpon>UnLockView.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -102,6 +105,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UnLockView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

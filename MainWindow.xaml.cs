@@ -33,7 +33,7 @@ namespace EagleControl_Native2_CuFe
     {
         private static String folderPath = Environment.CurrentDirectory;
 
-        private int StationNum_Value = 0;
+        private static String ConfigePath = System.IO.Path.Combine(folderPath, "config.txt");
 
         CancellationTokenSource cancellationTokenSource = null;
 
@@ -51,15 +51,112 @@ namespace EagleControl_Native2_CuFe
 
         private HashSet<(string Device, int Bit)> _offIndex = new HashSet<(string Device, int Bit)>();
 
+        private float Element1_OOS_HighLimitValue, Element1_OOC_HighLimitValue, Element1_OOC_LowLimitValue, Element1_OOS_LowLimitValue;
+        private float Element2_OOS_HighLimitValue, Element2_OOC_HighLimitValue, Element2_OOC_LowLimitValue, Element2_OOS_LowLimitValue;
+        private int StationNumValue;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            using (StreamReader sr = new StreamReader(ConfigePath))
+            {
+                string line;
+
+
+                // 逐行讀取檔案內容
+                while ((line = sr.ReadLine()) != null)
+                {
+                    // 透過逗號分割每一行的內容
+                    string[] parts = line.Split(',');
+
+                    // 確保分割後有兩個部分
+                    if (parts.Length == 2)
+                    {
+                        // 取得 key 和 value
+                        string key = parts[0].Trim();
+                        string value = parts[1].Trim();
+
+                        if (key == "Element1_OOS_HighLimit")
+                        {
+                            Element1_OOS_HighLimit.Text = value;
+                            Element1_OOS_HighLimitValue = float.Parse(value);
+                        }
+
+                        else if (key == "Element1_OOC_HighLimit")
+                        {
+                            Element1_OOC_HighLimit.Text = value;
+                            Element1_OOC_HighLimitValue = float.Parse(value);
+                        }
+
+                        else if (key == "Element1_OOC_LowLimit")
+                        {
+                            Element1_OOC_LowLimit.Text = value;
+                            Element1_OOC_LowLimitValue = float.Parse(value);
+                        }
+
+                        else if (key == "Element1_OOS_LowLimit")
+                        {
+                            Element1_OOS_LowLimit.Text = value;
+                            Element1_OOS_LowLimitValue = float.Parse(value);
+                        }
+
+                        else if (key == "Element2_OOS_HighLimit")
+                        {
+                            Element2_OOS_HighLimit.Text = value;
+                            Element2_OOS_HighLimitValue = float.Parse(value);
+                        }
+
+                        else if (key == "Element2_OOC_HighLimit")
+                        {
+                            Element2_OOC_HighLimit.Text = value;
+                            Element2_OOC_HighLimitValue = float.Parse(value);
+                        }
+
+                        else if (key == "Element2_OOC_LowLimit")
+                        {
+                            Element2_OOC_LowLimit.Text = value;
+                            Element2_OOC_LowLimitValue = float.Parse(value);
+                        }
+
+                        else if (key == "Element2_OOS_LowLimit")
+                        {
+                            Element2_OOS_LowLimit.Text = value;
+                            Element2_OOS_LowLimitValue = float.Parse(value);
+                        }
+
+                        else if (key == "StationNum")
+                        {
+                            StationNum.Text = value;
+                            StationNumValue = int.Parse(value);
+                        }  
+                    }
+                }
+            }
         }
 
         private void GoButton_Click(object sender, RoutedEventArgs e)
         {
             try
             {
+                Element1_OOS_HighLimit.IsEnabled = false;
+                Element1_OOC_HighLimit.IsEnabled = false;
+                Element1_OOC_LowLimit.IsEnabled = false;
+                Element1_OOS_LowLimit.IsEnabled = false;
+
+                Element1_LockBtn.IsEnabled = false;
+                Element1_UnLockBtn.IsEnabled = false;
+
+                Element2_OOS_HighLimit.IsEnabled = false;
+                Element2_OOC_HighLimit.IsEnabled = false;
+                Element2_OOC_LowLimit.IsEnabled = false;
+                Element2_OOS_LowLimit.IsEnabled = false;
+
+                Element2_LockBtn.IsEnabled = false;
+                Element2_UnLockBtn.IsEnabled = false;
+
+
+
                 Monitor1.Text = "";
                 Monitor2.Text = "";
                 Monitor3.Text = "";
@@ -69,17 +166,29 @@ namespace EagleControl_Native2_CuFe
 
                 MonitorShow(6, "監控啟動");
 
-
-                StationNum_Value = int.Parse(StationNum.Text);
-
                 plc = new ActUtlType();
-                plc.ActLogicalStationNumber = StationNum_Value;
+                plc.ActLogicalStationNumber = StationNumValue;
 
                 HeartBeatBtn1.Background = Brushes.Black;
                 HeartBeatBtn2.Background = Brushes.Black;
 
+                File.WriteAllText(ConfigePath, string.Empty);
 
-                cancellationTokenSource = new CancellationTokenSource();
+                using (StreamWriter writer = new StreamWriter(ConfigePath))
+                {
+                    writer.WriteLine("Element1_OOS_HighLimit," + Element1_OOS_HighLimit.Text);
+                    writer.WriteLine("Element1_OOC_HighLimit," + Element1_OOC_HighLimit.Text);
+                    writer.WriteLine("Element1_OOC_LowLimit," + Element1_OOC_LowLimit.Text);
+                    writer.WriteLine("Element1_OOS_LowLimit," + Element1_OOS_LowLimit.Text);
+                    writer.WriteLine("Element2_OOS_HighLimit," + Element2_OOS_HighLimit.Text);
+                    writer.WriteLine("Element2_OOC_HighLimit," + Element2_OOC_HighLimit.Text);
+                    writer.WriteLine("Element2_OOC_LowLimit," + Element2_OOC_LowLimit.Text);
+                    writer.WriteLine("Element2_OOS_LowLimit," + Element2_OOS_LowLimit.Text);
+                    writer.WriteLine("StationNum," + StationNum.Text);          
+                }
+
+
+                    cancellationTokenSource = new CancellationTokenSource();
 
                 var task1 = Task.Run(() => Go(cancellationTokenSource.Token));
 
@@ -120,6 +229,12 @@ namespace EagleControl_Native2_CuFe
                 StationNum.IsEnabled = true;
 
                 _offIndex.Clear();
+
+                Element1_UnLockBtn.IsEnabled = true;
+                Element1_UnLockBtn.Background = Brushes.Green;
+
+                Element2_UnLockBtn.IsEnabled = true;
+                Element2_UnLockBtn.Background = Brushes.Green;
 
                 //plc = null;
             }
@@ -401,7 +516,7 @@ namespace EagleControl_Native2_CuFe
                         {
                             if (WriteAlready != 4)
                             {
-                                string result = tocsv.WriteStatus(StatusCsvPath, "停機故障");
+                                string result = tocsv.WriteStatus(StatusCsvPath, "停机故障");
                                 MonitorShow(1, "停機故障");
 
                                 if (result == "1")
@@ -617,20 +732,149 @@ namespace EagleControl_Native2_CuFe
                                 _AnalyseData[3] = (float)Math.Round(_AnalyseData[3], 4);
                                 _AnalyseData[4] = (float)Math.Round(_AnalyseData[4], 4);
 
-                                string result = tocsv.WriteAnalyseData(_AnalyseData);
+                                string result;
+
+                                string [] writeValue = new string[3];
+
+                                bool IsNormal = false;
 
                                 if (_AnalyseData[1] == 1) {
 
                                     MonitorShow(3, $"槽位:{_AnalyseData[0]} ; 成分:Cu2+ ; 結果:{_AnalyseData[2]} ; 濃度:{_AnalyseData[3]} ; 空白:{_AnalyseData[4]}");
+
+                                    System.Windows.Application.Current.Dispatcher.Invoke(() =>
+                                    {
+                                        Element1Value.Text = _AnalyseData[3].ToString();
+
+                                        if (_AnalyseData[3] >= Element1_OOS_HighLimitValue)
+                                        {
+                                            Element1Range.Text = "OOS偏高";
+
+                                            writeValue[0] = "Error start2";
+                                            writeValue[1] = "108";
+                                            writeValue[2] = "Cu2+ 分析浓度OOS";
+                                        }
+
+                                        else if (_AnalyseData[3] < Element1_OOS_HighLimitValue && _AnalyseData[3] >= Element1_OOC_HighLimitValue)
+                                        {
+                                            Element1Range.Text = "OOC偏高";
+
+                                            writeValue[0] = "Error start1";
+                                            writeValue[1] = "106";
+                                            writeValue[2] = "Cu2+ 分析浓度OOC";
+                                        }
+
+                                        else if (_AnalyseData[3] < Element1_OOC_HighLimitValue && _AnalyseData[3] > Element1_OOC_LowLimitValue)
+                                        {
+                                            Element1Range.Text = "正常";
+
+                                            IsNormal = true;
+                                        }
+
+                                        else if (_AnalyseData[3] > Element1_OOS_LowLimitValue && _AnalyseData[3] <= Element1_OOC_LowLimitValue)
+                                        {
+                                            Element1Range.Text = "OOC偏低";
+
+                                            writeValue[0] = "Error start1";
+                                            writeValue[1] = "106";
+                                            writeValue[2] = "Cu2+ 分析浓度OOC";
+                                        }
+
+                                        else if (_AnalyseData[3] <= Element1_OOS_LowLimitValue)
+                                        {
+                                            Element1Range.Text = "OOS偏低";
+
+                                            writeValue[0] = "Error start2";
+                                            writeValue[1] = "108";
+                                            writeValue[2] = "Cu2+ 分析浓度OOS";
+                                        }
+
+                                        Element1Time.Text = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
+
+                                    });
+
+
+                                
                                 }
 
                                 else if (_AnalyseData[1] == 4)
                                 {
 
                                     MonitorShow(3, $"槽位:{_AnalyseData[0]} ; 成分:Fe3+ ; 結果:{_AnalyseData[2]} ; 濃度:{_AnalyseData[3]} ; 空白:{_AnalyseData[4]}");
+
+                                    System.Windows.Application.Current.Dispatcher.Invoke(() =>
+                                    {
+                                        Element2Value.Text = _AnalyseData[3].ToString();
+
+                                        if (_AnalyseData[3] >= Element2_OOS_HighLimitValue)
+                                        {
+                                            Element2Range.Text = "OOS偏高";
+
+                                            writeValue[0] = "Error start2";
+                                            writeValue[1] = "109";
+                                            writeValue[2] = "Fe3+ 分析浓度OOS";
+                                        }
+
+                                        else if (_AnalyseData[3] < Element2_OOS_HighLimitValue && _AnalyseData[3] >= Element2_OOC_HighLimitValue)
+                                        {
+                                            Element2Range.Text = "OOC偏高";
+
+                                            writeValue[0] = "Error start1";
+                                            writeValue[1] = "107";
+                                            writeValue[2] = "Fe3+ 分析浓度OOC";
+                                        }
+
+                                        else if (_AnalyseData[3] < Element2_OOC_HighLimitValue && _AnalyseData[3] > Element2_OOC_LowLimitValue)
+                                        {
+                                            Element2Range.Text = "正常";
+
+                                            IsNormal = true;
+                                        }
+
+                                        else if (_AnalyseData[3] > Element2_OOS_LowLimitValue && _AnalyseData[3] <= Element2_OOC_LowLimitValue)
+                                        {
+                                            Element2Range.Text = "OOC偏低";
+
+                                            writeValue[0] = "Error start1";
+                                            writeValue[1] = "107";
+                                            writeValue[2] = "Fe3+ 分析浓度OOC";
+                                        }
+
+                                        else if (_AnalyseData[3] <= Element2_OOS_LowLimitValue)
+                                        {
+                                            Element2Range.Text = "OOS偏低";
+
+                                            writeValue[0] = "Error start2";
+                                            writeValue[1] = "109";
+                                            writeValue[2] = "Fe3+ 分析浓度OOS";
+                                        }
+
+                                        Element2Time.Text = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
+
+                                    });
+
                                 }
 
+                                if (!IsNormal) {
 
+                                    result = tocsv.WriteShowEventCsv(System.IO.Path.Combine(folderPath, "ShowData", "Event"), writeValue);
+
+                                    if (result == "1")
+                                    {
+                                        MonitorShow(6, "(ShowData) 濃度範圍判斷輸出至CSV完成");
+                                    }
+
+                                    else if (result == "0")
+                                    {
+                                        MonitorShow(6, "(ShowData)  濃度範圍判斷輸出至CSV失敗");
+                                    }
+
+                                }
+
+                                
+
+
+                                result = tocsv.WriteAnalyseData(_AnalyseData);
 
                                 if (result == "1")
                                 {
@@ -681,15 +925,15 @@ namespace EagleControl_Native2_CuFe
 
                                         toShowEventContent[1] = "102";
 
-                                        toShowEventContent[2] = "Cu2+ 監控濃度在規格內";
+                                        toShowEventContent[2] = "Cu2+ 监控浓度在规格内";
                                     }
 
                                     else if (_AnalyseData[1] == 4)
                                     {
 
-                                        toShowEventContent[1] = "105";
+                                        toShowEventContent[1] = "103";
 
-                                        toShowEventContent[2] = "Fe3+監控濃度在規格內";
+                                        toShowEventContent[2] = "Fe3+ 监控浓度在规格内";
                                     }
 
                                     result = tocsv.WriteShowEventCsv(System.IO.Path.Combine(folderPath, "ShowData", "Event"), toShowEventContent);
@@ -1246,6 +1490,87 @@ namespace EagleControl_Native2_CuFe
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             Monitor6.Text = "";
+        }
+
+        private void Element1_LockBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Element1_OOS_HighLimit.IsEnabled = false;
+            Element1_OOC_HighLimit.IsEnabled = false;
+            Element1_OOC_LowLimit.IsEnabled = false;
+            Element1_OOS_LowLimit.IsEnabled = false;
+
+            Element1_LockBtn.IsEnabled = false;
+            Element1_UnLockBtn.IsEnabled = true;
+            Element1_UnLockBtn.Background = Brushes.Green;
+        }
+
+        private void Element1_UnLockBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new UnLockView("請輸入解鎖密碼!");
+            bool? result = dialog.ShowDialog();
+
+            if (result == true)
+            {
+                string input = dialog.UserInput;
+                if (input == "159357")  // 替換成比對條件
+                {
+                    Element1_OOS_HighLimit.IsEnabled = true;
+                    Element1_OOC_HighLimit.IsEnabled = true;
+                    Element1_OOC_LowLimit.IsEnabled = true;
+                    Element1_OOS_LowLimit.IsEnabled = true;
+
+                    Element1_LockBtn.IsEnabled = true;
+                    Element1_UnLockBtn.IsEnabled = false;
+                    Element1_LockBtn.Background = Brushes.Green;
+                }
+
+                else
+                {
+                    MessageBox.Show("密碼錯誤");
+                }
+            }
+        }
+
+        private void Element2_LockBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+            Element2_OOS_HighLimit.IsEnabled = false;
+            Element2_OOC_HighLimit.IsEnabled = false;
+            Element2_OOC_LowLimit.IsEnabled = false;
+            Element2_OOS_LowLimit.IsEnabled = false;
+
+            Element2_LockBtn.IsEnabled = false;
+            Element2_UnLockBtn.IsEnabled = true;
+            Element2_UnLockBtn.Background = Brushes.Green;           
+
+        }
+
+        private void Element2_UnLockBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new UnLockView("請輸入解鎖密碼!");
+            bool? result = dialog.ShowDialog();
+
+            if (result == true)
+            {
+                string input = dialog.UserInput;
+                if (input == "159357")  // 替換成比對條件
+                {
+                    MessageBox.Show("解鎖成功");
+                    Element2_OOS_HighLimit.IsEnabled = true;
+                    Element2_OOC_HighLimit.IsEnabled = true;
+                    Element2_OOC_LowLimit.IsEnabled = true;
+                    Element2_OOS_LowLimit.IsEnabled = true;
+
+                    Element2_LockBtn.IsEnabled = true;
+                    Element2_UnLockBtn.IsEnabled = false;
+                    Element2_LockBtn.Background = Brushes.Green;
+                }
+
+                else
+                {
+                    MessageBox.Show("密碼錯誤");
+                }
+            }
         }
     }
 }
